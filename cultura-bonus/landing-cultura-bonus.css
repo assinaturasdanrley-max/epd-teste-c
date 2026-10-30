@@ -1,0 +1,56 @@
+/* Landing Cultura BÔNUS (teste A/B): pilha de valor e revelação do preço (escopo .lpb2) */
+
+/* hero sem botão: só um convite para rolar */
+.lpb2 .hero .hcue{display:inline-flex;align-items:center;gap:.8rem;color:var(--gold-2);text-decoration:none;font-size:.78rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
+.lpb2 .hero .hcue span{position:relative;width:1px;height:2.4rem;background:linear-gradient(var(--gold),transparent);overflow:hidden}
+.lpb2 .hero .hcue span::after{content:"";position:absolute;left:-1px;top:0;width:3px;height:.8rem;border-radius:9px;background:var(--gold-2);animation:b2b-drop 2s var(--soft) infinite}
+@keyframes b2b-drop{0%{transform:translateY(-100%);opacity:0}30%{opacity:1}100%{transform:translateY(2.4rem);opacity:0}}
+
+/* pilha de valor */
+.lpb2 .stk{background:radial-gradient(ellipse 70% 40% at 50% 0%,hsl(355 55% 18%/.6),transparent 70%),var(--ink)}
+.lpb2 .stk-blk{margin-top:3.2rem;border-radius:1.8rem;padding:clamp(1.4rem,3vw,2.4rem);background:linear-gradient(170deg,hsl(355 55% 14%/.55),hsl(355 70% 6%/.9));box-shadow:inset 0 0 0 1px var(--hair),0 40px 90px -50px hsl(0 0% 0%/.9)}
+.lpb2 .stk-blk.main{box-shadow:inset 0 0 0 1px var(--hairg),0 50px 110px -50px hsl(38 80% 40%/.35)}
+.lpb2 .stk-hd{display:flex;flex-direction:column;gap:.5rem;padding-bottom:1.2rem;border-bottom:1px solid var(--hair)}
+.lpb2 .stk-hd .k{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+.lpb2 .stk-hd h3{font-weight:300;font-style:italic;font-size:var(--h3);line-height:1.05;color:var(--cream)}
+.lpb2 .stk-list{list-style:none}
+.lpb2 .stk-list li{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:1.1rem;padding:1rem 0;border-bottom:1px solid var(--hair)}
+.lpb2 .stk-list li:last-child{border-bottom:0}
+.lpb2 .stk-list img{width:3.25rem;aspect-ratio:688/1024;object-fit:cover;border-radius:.45rem;box-shadow:0 12px 26px -12px #000,inset 0 0 0 1px var(--hair)}
+.lpb2 .stk-list .nm{min-width:0;display:flex;flex-direction:column;gap:.2rem}
+.lpb2 .stk-list .nm i{font-style:normal;font-size:9.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.lpb2 .stk-list .nm b{font-family:"Fraunces",Georgia,serif;font-weight:400;font-size:clamp(1.05rem,.98rem + .3vw,1.25rem);line-height:1.2;color:var(--cream)}
+.lpb2 .stk-list .nm span{font-size:.86rem;line-height:1.4;color:var(--faint)}
+.lpb2 .stk-list .pv{font-family:"Fraunces",Georgia,serif;font-size:clamp(1.05rem,1rem + .3vw,1.3rem);color:var(--gold-2);white-space:nowrap;font-variant-numeric:tabular-nums}
+.lpb2 .stk-list li.club .ic{display:grid;place-items:center;width:3.25rem;aspect-ratio:688/1024;border-radius:.45rem;background:radial-gradient(circle at 30% 25%,hsl(38 70% 70%),var(--gold) 45%,var(--gold-d));color:var(--ink);font-size:1.3rem}
+.lpb2 .stk-list li.club .pv{font-family:"DM Sans",system-ui,sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.lpb2 .stk-sub{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-top:.4rem;padding-top:1.2rem;border-top:1px dashed var(--hairg)}
+.lpb2 .stk-sub span{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}
+.lpb2 .stk-sub b{font-family:"Fraunces",Georgia,serif;font-weight:400;font-size:clamp(1.5rem,1.2rem + 1vw,2.1rem);color:var(--cream);font-variant-numeric:tabular-nums}
+.lpb2 .stk-note{margin:2.8rem auto 0;max-width:40rem;text-align:center;font-weight:300;font-style:italic;font-size:var(--t2);line-height:1.4;color:hsl(36 40% 94%/.85)}
+.lpb2 .stk-note em{color:var(--gold-2)}
+
+/* total que é riscado */
+.lpb2 .stk-tot{margin-top:3.4rem;text-align:center;border-radius:1.8rem;padding:clamp(2rem,4vw,3.2rem) 1.4rem;background:var(--cream);color:var(--ink);box-shadow:0 50px 100px -50px hsl(38 80% 40%/.5)}
+.lpb2 .stk-tot .k{display:block;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:hsl(350 35% 4.5%/.55)}
+.lpb2 .stk-tot .v{position:relative;display:inline-block;margin-top:.8rem;font-family:"Fraunces",Georgia,serif;font-weight:400;font-size:clamp(3rem,2rem + 4vw,5.4rem);line-height:1;letter-spacing:-.03em;color:var(--wine);font-variant-numeric:tabular-nums}
+.lpb2 .stk-tot .v::after{content:"";position:absolute;left:-4%;right:-4%;top:52%;height:3px;border-radius:9px;background:hsl(355 70% 45%);transform:scaleX(0);transform-origin:left;transition:transform .9s var(--expo) .2s}
+.lpb2 .stk-tot .v.cut::after{transform:scaleX(1)}
+.lpb2 .stk-tot p{margin-top:1.2rem;font-family:"Fraunces",Georgia,serif;font-style:italic;font-weight:300;font-size:var(--t2);color:var(--wine-2)}
+.lpb2 .stk-go{display:inline-flex;flex-direction:column;align-items:center;gap:.7rem;margin-top:1.8rem;color:var(--wine);text-decoration:none;font-size:.74rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+.lpb2 .stk-go span{width:2.6rem;height:2.6rem;border-radius:99px;box-shadow:inset 0 0 0 1px hsl(355 62% 17%/.3);position:relative;animation:b2b-bob 1.8s var(--soft) infinite}
+.lpb2 .stk-go span::before{content:"";position:absolute;left:50%;top:44%;width:.6rem;height:.6rem;border-right:1.5px solid var(--wine);border-bottom:1.5px solid var(--wine);transform:translate(-50%,-50%) rotate(45deg)}
+@keyframes b2b-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+
+/* plano anual: preço cheio riscado acima do valor real */
+.lpb2 .plan .was{margin-top:1.4rem;font-size:.9rem;color:var(--mute)}
+.lpb2 .plan .was s{color:hsl(36 40% 94%/.55);text-decoration-color:hsl(355 60% 55%);text-decoration-thickness:2px}
+.lpb2 .plan .was+.pr{margin-top:.3rem}
+
+@media (max-width:700px){
+.lpb2 .stk-list li{grid-template-columns:auto 1fr;gap:.9rem}
+.lpb2 .stk-list .pv{grid-column:2;justify-self:start;margin-top:-.4rem;font-size:1rem}
+.lpb2 .stk-list img,.lpb2 .stk-list li.club .ic{width:2.8rem;grid-row:span 2;align-self:start}
+.lpb2 .stk-list .nm span{font-size:.82rem}
+.lpb2 .stk-blk{border-radius:1.4rem}}
+@media (prefers-reduced-motion:reduce){.lpb2 .stk-go span,.lpb2 .hero .hcue span::after{animation:none}}
