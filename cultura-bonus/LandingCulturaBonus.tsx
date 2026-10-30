@@ -422,7 +422,7 @@ const LandingCulturaBonus = () => {
   const [plan, setPlan] = useState<Plan | null>(null);
   const [total, setTotal] = useState(0);
   const [totalCut, setTotalCut] = useState(false);
-  // CTAs só aparecem depois das duas primeiras seções; depois dos planos, os botões levam aos planos
+  // CTAs só aparecem a partir da seção "Na prática" (terceira tela); depois dos planos, os botões levam aos planos
   const [ctaOn, setCtaOn] = useState(false);
   const [pastPlans, setPastPlans] = useState(false);
 
@@ -498,7 +498,7 @@ const LandingCulturaBonus = () => {
     let pastIntro = false;
     const hidden = new Set<Element>();
     const upd = () => mc?.classList.toggle("show", pastIntro && hidden.size === 0);
-    const introEnd = $("#caminho");
+    const introEnd = $("#pratica");
     if (introEnd) {
       const o = new IntersectionObserver(([e]) => {
         pastIntro = e.isIntersecting || e.boundingClientRect.top < 0;
@@ -702,8 +702,8 @@ const LandingCulturaBonus = () => {
         </div>
       </section>
 
-      {/* ============ II NA PRÁTICA ============ */}
-      <section className="light pad">
+      {/* ============ II NA PRÁTICA (primeira seção com botão) ============ */}
+      <section className="light pad" id="pratica">
         <div className="wrap six-g">
           <div className="stack">
             <div className="a bz lt rv" style={d(0.05)}><div className="cr"><img src={cult9609} alt="Letícia Fagundes lendo um livro na cadeira" loading="lazy" decoding="async" /></div></div>
@@ -726,6 +726,7 @@ const LandingCulturaBonus = () => {
               ))}
             </ul>
             <p className="pull rv hl2">Cultura não é decorar datas. É ter o que dizer quando a conversa fica boa.</p>
+            <div className="rv" style={{ marginTop: "2.4rem" }}><CtaLink>Quero ver o que está incluso</CtaLink></div>
           </div>
         </div>
       </section>
