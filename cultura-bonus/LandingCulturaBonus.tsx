@@ -776,6 +776,10 @@ const LandingCulturaBonus = () => {
               </div>
             ))}
           </div>
+          <div className="more rv">
+            <p>Cultura, comunicação, feminilidade, inteligência emocional e elegância na mesma assinatura.</p>
+            <CtaLink variant="gold-b">Quero a Escola inteira</CtaLink>
+          </div>
         </div>
       </section>
 
