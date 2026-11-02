@@ -1,0 +1,1368 @@
+{
+ "name": "Quiz + VSL B - Comunicação (Escola para Damas)",
+ "slug": "quiz-vsl-b",
+ "steps": [
+  {
+   "id": "8KHclS",
+   "title": "01 Abertura",
+   "header": {
+    "logo": true,
+    "progress": false,
+    "back": false
+   },
+   "blocks": [
+    {
+     "id": "6lDI3D",
+     "name": "text_6lDI3D",
+     "type": "text",
+     "props": {
+      "text": "Você saberia **como agir e o que falar** num jantar, numa reunião ou com a família dele?",
+      "variant": "h1",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "kYFGSW",
+     "name": "text_kYFGSW",
+     "type": "text",
+     "props": {
+      "text": "Responda algumas perguntas rápidas e assista a dois trechos da aula da **Letícia Fagundes**. No fim, você recebe a trilha recomendada para o seu momento.",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "oqRvAO",
+     "name": "button_oqRvAO",
+     "type": "button",
+     "props": {
+      "text": "COMEÇAR",
+      "nav": {
+       "kind": "step",
+       "stepId": "XZGTj3"
+      },
+      "size": "lg",
+      "pulse": true
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "KkaqyP",
+     "name": "text_KkaqyP",
+     "type": "text",
+     "props": {
+      "text": "⏱️ 8 perguntas · 2 vídeos curtos",
+      "variant": "small",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "XZGTj3",
+   "title": "02 Idade",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "3DLKST",
+     "name": "idade",
+     "type": "options",
+     "props": {
+      "introType": "text",
+      "intro": "Para começar, qual é a sua idade?",
+      "options": [
+       {
+        "id": "oxp3cb",
+        "label": "18 a 24",
+        "value": "18-24",
+        "points": 0,
+        "target": "",
+        "emoji": "🌱"
+       },
+       {
+        "id": "jKqZjQ",
+        "label": "25 a 34",
+        "value": "25-34",
+        "points": 0,
+        "target": "",
+        "emoji": "🌸"
+       },
+       {
+        "id": "A2zsds",
+        "label": "35 a 44",
+        "value": "35-44",
+        "points": 0,
+        "target": "",
+        "emoji": "🌹"
+       },
+       {
+        "id": "jOGUMO",
+        "label": "45 ou mais",
+        "value": "45+",
+        "points": 0,
+        "target": "",
+        "emoji": "💐"
+       }
+      ],
+      "required": true,
+      "multiple": false,
+      "noAuto": false,
+      "variant": "simple",
+      "layout": "grid2",
+      "imagePos": "top",
+      "ratio": "auto",
+      "shadow": "none",
+      "gap": "10",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "ElAgMy",
+   "title": "03 Situacao menos segura",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "fBiQmM",
+     "name": "situacao",
+     "type": "options",
+     "props": {
+      "introType": "text",
+      "intro": "Em qual destas situações você se sentiria menos segura hoje?",
+      "options": [
+       {
+        "id": "tpa0Xe",
+        "label": "Jantar num restaurante refinado",
+        "value": "jantar",
+        "points": 0,
+        "target": "",
+        "emoji": "🍽️"
+       },
+       {
+        "id": "7JZ5ei",
+        "label": "Reunião de trabalho ou entrevista",
+        "value": "trabalho",
+        "points": 0,
+        "target": "",
+        "emoji": "💼"
+       },
+       {
+        "id": "7I9Pqi",
+        "label": "Primeiro encontro",
+        "value": "encontro",
+        "points": 0,
+        "target": "",
+        "emoji": "🌹"
+       },
+       {
+        "id": "af8v0p",
+        "label": "Conhecer a família dele",
+        "value": "familia",
+        "points": 0,
+        "target": "",
+        "emoji": "🏡"
+       }
+      ],
+      "required": true,
+      "multiple": false,
+      "noAuto": false,
+      "variant": "simple",
+      "layout": "list",
+      "imagePos": "top",
+      "ratio": "auto",
+      "shadow": "none",
+      "gap": "10",
+      "textAlign": "left"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "0yqBo2",
+   "title": "04 Quando precisa se posicionar",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "vK6m1B",
+     "name": "posicionar",
+     "type": "options",
+     "props": {
+      "introType": "text",
+      "intro": "Quando você precisa se posicionar, o que costuma acontecer?",
+      "options": [
+       {
+        "id": "BlwEvU",
+        "label": "Falo e soo dura",
+        "value": "dura",
+        "points": 0,
+        "target": ""
+       },
+       {
+        "id": "J12233",
+        "label": "Me calo para evitar conflito",
+        "value": "calo",
+        "points": 0,
+        "target": ""
+       },
+       {
+        "id": "3XYjxC",
+        "label": "Falo, mas não sou levada a sério",
+        "value": "nao_seria",
+        "points": 0,
+        "target": ""
+       },
+       {
+        "id": "eQxQZ1",
+        "label": "Me sinto segura",
+        "value": "segura",
+        "points": 0,
+        "target": ""
+       }
+      ],
+      "required": true,
+      "multiple": false,
+      "noAuto": false,
+      "variant": "indicator",
+      "layout": "list",
+      "imagePos": "top",
+      "ratio": "auto",
+      "shadow": "none",
+      "gap": "10",
+      "textAlign": "left"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "IsRi1p",
+   "title": "05 Corte B1 Voce sabe como agir",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "xFNP7Y",
+     "name": "text_xFNP7Y",
+     "type": "text",
+     "props": {
+      "text": "VÍDEO 1 DE 2 · 2 MIN",
+      "variant": "small",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "GEPyOl",
+     "name": "text_GEPyOl",
+     "type": "text",
+     "props": {
+      "text": "Você sabe como agir?",
+      "variant": "h2",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "0D6cMX",
+     "name": "text_0D6cMX",
+     "type": "text",
+     "props": {
+      "text": "A Letícia fala da mulher que, quando abre a boca, todos param para ouvir, e de onde ela veio.",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "pzowxs",
+     "name": "html_pzowxs",
+     "type": "html",
+     "props": {
+      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B1.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B1_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "g7Wepi",
+     "name": "button_g7Wepi",
+     "type": "button",
+     "props": {
+      "text": "CONTINUAR",
+      "nav": {
+       "kind": "step",
+       "stepId": "SX3NfG"
+      },
+      "size": "lg"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": [],
+      "delay": 20
+     }
+    },
+    {
+     "id": "xQb3yj",
+     "name": "text_xQb3yj",
+     "type": "text",
+     "props": {
+      "text": "Assista até o fim. O botão aparece em alguns segundos.",
+      "variant": "small",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "SX3NfG",
+   "title": "06 O que quer que percebam",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "M4pMYx",
+     "name": "percebam",
+     "type": "options",
+     "props": {
+      "introType": "text",
+      "intro": "O que você mais quer que as pessoas percebam em você?",
+      "options": [
+       {
+        "id": "WXggh2",
+        "label": "Que sou ouvida e respeitada",
+        "value": "respeitada",
+        "points": 0,
+        "target": ""
+       },
+       {
+        "id": "1c2TWO",
+        "label": "Minha elegância",
+        "value": "elegancia",
+        "points": 0,
+        "target": ""
+       },
+       {
+        "id": "7HHaPV",
+        "label": "Minha calma",
+        "value": "calma",
+        "points": 0,
+        "target": ""
+       },
+       {
+        "id": "FOHnGR",
+        "label": "Que tenho assunto",
+        "value": "assunto",
+        "points": 0,
+        "target": ""
+       }
+      ],
+      "required": true,
+      "multiple": false,
+      "noAuto": false,
+      "variant": "indicator",
+      "layout": "list",
+      "imagePos": "top",
+      "ratio": "auto",
+      "shadow": "none",
+      "gap": "10",
+      "textAlign": "left"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "mSys8U",
+   "title": "07 Voce sempre voce nunca",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "cyr2YD",
+     "name": "sempre_nunca",
+     "type": "options",
+     "props": {
+      "introType": "text",
+      "intro": "Numa discussão com alguém que você ama, você já disse \"você sempre\" ou \"você nunca\"?",
+      "options": [
+       {
+        "id": "DZAML4",
+        "label": "Sim, muitas vezes",
+        "value": "muitas",
+        "points": 0,
+        "target": "",
+        "emoji": "😬"
+       },
+       {
+        "id": "Wfl1i5",
+        "label": "Às vezes",
+        "value": "as_vezes",
+        "points": 0,
+        "target": "",
+        "emoji": "🤏"
+       },
+       {
+        "id": "QXTZk8",
+        "label": "Nunca",
+        "value": "nunca",
+        "points": 0,
+        "target": "",
+        "emoji": "🙂"
+       }
+      ],
+      "required": true,
+      "multiple": false,
+      "noAuto": false,
+      "variant": "simple",
+      "layout": "list",
+      "imagePos": "top",
+      "ratio": "auto",
+      "shadow": "none",
+      "gap": "10",
+      "textAlign": "left"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "uOTiE9",
+   "title": "07b Corte B2 Como falar para ser ouvida",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "wcXEbq",
+     "name": "text_wcXEbq",
+     "type": "text",
+     "props": {
+      "text": "VÍDEO 2 DE 2 · 3 MIN",
+      "variant": "small",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "aZWrBz",
+     "name": "text_aZWrBz",
+     "type": "text",
+     "props": {
+      "text": "Como falar para ser ouvida",
+      "variant": "h2",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "dSQzT6",
+     "name": "text_dSQzT6",
+     "type": "text",
+     "props": {
+      "text": "O erro que fecha qualquer conversa e o que dizer no lugar, com firmeza e sem perder a delicadeza.",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "oIDC4y",
+     "name": "html_oIDC4y",
+     "type": "html",
+     "props": {
+      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B2.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B2_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "xQGyRF",
+     "name": "button_xQGyRF",
+     "type": "button",
+     "props": {
+      "text": "CONTINUAR",
+      "nav": {
+       "kind": "step",
+       "stepId": "uPXeUq"
+      },
+      "size": "lg"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": [],
+      "delay": 20
+     }
+    },
+    {
+     "id": "4OKlE9",
+     "name": "text_4OKlE9",
+     "type": "text",
+     "props": {
+      "text": "Assista até o fim. O botão aparece em alguns segundos.",
+      "variant": "small",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "uPXeUq",
+   "title": "08 O que sente depois do corte 2",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "i6KulE",
+     "name": "sente",
+     "type": "options",
+     "props": {
+      "introType": "text",
+      "intro": "Depois desse trecho, o que você sente?",
+      "options": [
+       {
+        "id": "2iMGmy",
+        "label": "Quero aprender mais assim",
+        "value": "quero",
+        "points": 0,
+        "target": "",
+        "emoji": "✨"
+       },
+       {
+        "id": "jWG59s",
+        "label": "Gostei, mas tenho pouco tempo",
+        "value": "tempo",
+        "points": 0,
+        "target": "",
+        "emoji": "⏳"
+       },
+       {
+        "id": "geaTjB",
+        "label": "Ainda estou só curiosa",
+        "value": "curiosa",
+        "points": 0,
+        "target": "",
+        "emoji": "👀"
+       }
+      ],
+      "required": true,
+      "multiple": false,
+      "noAuto": false,
+      "variant": "simple",
+      "layout": "list",
+      "imagePos": "top",
+      "ratio": "auto",
+      "shadow": "none",
+      "gap": "10",
+      "textAlign": "left"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "OZOiBc",
+   "title": "09 Tempo disponivel",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": true
+   },
+   "blocks": [
+    {
+     "id": "JVz0m3",
+     "name": "tempo",
+     "type": "options",
+     "props": {
+      "introType": "text",
+      "intro": "Quanto tempo por dia você conseguiria reservar para você?",
+      "options": [
+       {
+        "id": "sVVvJr",
+        "label": "Menos de 10 minutos",
+        "value": "pouco",
+        "points": 0,
+        "target": "",
+        "emoji": "⏳"
+       },
+       {
+        "id": "REP8mO",
+        "label": "15 minutos",
+        "value": "15",
+        "points": 0,
+        "target": "",
+        "emoji": "☕"
+       },
+       {
+        "id": "0w4s0Q",
+        "label": "30 minutos",
+        "value": "30",
+        "points": 0,
+        "target": "",
+        "emoji": "📚"
+       },
+       {
+        "id": "qJk5w2",
+        "label": "1 hora ou mais",
+        "value": "60",
+        "points": 0,
+        "target": "",
+        "emoji": "🕰️"
+       }
+      ],
+      "required": true,
+      "multiple": false,
+      "noAuto": false,
+      "variant": "simple",
+      "layout": "grid2",
+      "imagePos": "top",
+      "ratio": "auto",
+      "shadow": "none",
+      "gap": "10",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "R18Q7r",
+   "title": "10 Captura",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": false
+   },
+   "blocks": [
+    {
+     "id": "9Amxb4",
+     "name": "text_9Amxb4",
+     "type": "text",
+     "props": {
+      "text": "Sua trilha recomendada está pronta ✨",
+      "variant": "h1",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "tm7jhd",
+     "name": "text_tm7jhd",
+     "type": "text",
+     "props": {
+      "text": "Preencha para liberar a trilha que a Letícia indica para o seu momento.",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "ZeOsT2",
+     "name": "nome",
+     "type": "field",
+     "props": {
+      "label": "Seu primeiro nome",
+      "placeholder": "Como você gosta de ser chamada?",
+      "required": true,
+      "inputType": "text"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "V78Xb5",
+     "name": "email",
+     "type": "email",
+     "props": {
+      "label": "Seu melhor e-mail",
+      "placeholder": "seu@email.com",
+      "required": true
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "9GZBUe",
+     "name": "telefone",
+     "type": "phone",
+     "props": {
+      "label": "Seu WhatsApp",
+      "placeholder": "(00) 00000-0000",
+      "required": true,
+      "mask": true
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "GcEiMW",
+     "name": "button_GcEiMW",
+     "type": "button",
+     "props": {
+      "text": "VER MINHA TRILHA",
+      "nav": {
+       "kind": "step",
+       "stepId": "XCgVh2"
+      },
+      "size": "lg"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "9VGD2s",
+     "name": "text_9VGD2s",
+     "type": "text",
+     "props": {
+      "text": "🔒 Seus dados estão seguros e não serão compartilhados.",
+      "variant": "small",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "XCgVh2",
+   "title": "11 Analisando",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": false
+   },
+   "blocks": [
+    {
+     "id": "ILAeov",
+     "name": "loading_ILAeov",
+     "type": "loading",
+     "props": {
+      "title": "Montando a sua trilha...",
+      "description": "",
+      "start": 0,
+      "duration": 4,
+      "showTitle": true,
+      "showProgress": true,
+      "redirect": true,
+      "nav": {
+       "kind": "step",
+       "stepId": "2W0gl5"
+      },
+      "layout": "bar"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "ijYMKR",
+     "name": "checklist_ijYMKR",
+     "type": "checklist",
+     "props": {
+      "items": "Lendo suas respostas\nCruzando com o que a Letícia mostrou nos vídeos\nSeparando os cursos para o seu momento",
+      "icon": "✔️",
+      "negative": false
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "2W0gl5",
+   "title": "12 Resultado e oferta",
+   "header": {
+    "logo": true,
+    "progress": true,
+    "back": false
+   },
+   "blocks": [
+    {
+     "id": "wzKLT5",
+     "name": "html_wzKLT5",
+     "type": "html",
+     "props": {
+      "code": "<script>(function(){try{var k='send_Eyu6nOz';if(sessionStorage.getItem(k))return;var tel=`{{telefone}}`.replace(/\\D/g,'');if(tel&&tel.indexOf('55')!==0)tel='55'+tel;var d=new FormData();d.append('first_name',`{{nome}}`);d.append('email',`{{email}}`);if(tel)d.append('phone','+'+tel);d.append('b_Eyu6nOz','');var qs=location.search?'&'+location.search.slice(1):'';fetch('https://handler.send.hotmart.com/subscription/Eyu6nOz?hotfeature=53'+qs,{method:'POST',mode:'no-cors',body:d});sessionStorage.setItem(k,'1');}catch(e){}})();</script>"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "C4ifBC",
+     "name": "text_C4ifBC",
+     "type": "text",
+     "props": {
+      "text": "{{nome}}, o seu caminho começa pela",
+      "variant": "small",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "Sw7u2y",
+     "name": "text_Sw7u2y",
+     "type": "text",
+     "props": {
+      "text": "COMUNICAÇÃO",
+      "variant": "h1",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "lTuOtd",
+     "name": "text_lTuOtd",
+     "type": "text",
+     "props": {
+      "text": "Você sabe o que pensa, mas na hora de falar as palavras não saem como gostaria. Às vezes se cala para evitar conflito, às vezes fala e sente que não foi levada a sério.",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "zZB4Dk",
+     "name": "text_zZB4Dk",
+     "type": "text",
+     "props": {
+      "text": "**Sua trilha recomendada:**",
+      "variant": "p",
+      "textAlign": "left"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "TwoYyp",
+     "name": "checklist_TwoYyp",
+     "type": "checklist",
+     "props": {
+      "items": "🎙️ Comunicação FMA: Feminina, Magnética e Assertiva\n🍽️ Guia da Anfitriã Perfeita: como receber e se portar com elegância\n🧠 Os 4 Temperamentos: entender como cada pessoa reage",
+      "icon": "",
+      "negative": false
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "8MYuXv",
+     "name": "text_8MYuXv",
+     "type": "text",
+     "props": {
+      "text": "Você passa a dizer o que pensa com clareza e firmeza, sem perder a doçura, e a se sentir segura em qualquer ambiente.",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "Uur3pn",
+     "name": "text_Uur3pn",
+     "type": "text",
+     "props": {
+      "text": "E isso é só o começo. Na **Escola para Damas** você tem mais de 10 cursos e mais de 200 aulas sobre cultura, comunicação, feminilidade, inteligência emocional e elegância.",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "nN87pq",
+     "name": "text_nN87pq",
+     "type": "text",
+     "props": {
+      "text": "Antes de ver o valor, assista a este recado da Letícia:",
+      "variant": "p",
+      "textAlign": "center"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "id2EaU",
+     "name": "html_id2EaU",
+     "type": "html",
+     "props": {
+      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/OFERTA.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/OFERTA_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "qdBxGt",
+     "name": "alert_qdBxGt",
+     "type": "alert",
+     "props": {
+      "text": "Você disse que tem pouco tempo: as aulas foram pensadas para **cerca de 15 minutos** e muitas podem ser **ouvidas como podcast**.",
+      "variant": "info",
+      "icon": "⏱️"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": [
+       {
+        "id": "BkCZB",
+        "rules": [
+         {
+          "id": "pDukL",
+          "left": "@tempo",
+          "op": "eq",
+          "right": "pouco"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "ZhGcXV",
+     "name": "price_ZhGcXV",
+     "type": "price",
+     "props": {
+      "badge": "10% DE DESCONTO NESTA PÁGINA",
+      "title": "Plano Anual · acesso a todos os cursos",
+      "oldPrice": "12x R$ 39,90",
+      "price": "12x R$ 35,91",
+      "installments": "ou R$ 430,92 à vista",
+      "features": "Todos os cursos, incluindo a sua trilha\nNovos cursos lançados durante o ano\nBônus: curso Instagram da Dama\nBônus: Clube das Damas (grupo VIP e encontros mensais)\nGarantia de 7 dias",
+      "cta": "QUERO COMEÇAR MINHA TRILHA",
+      "nav": {
+       "kind": "url",
+       "url": "https://pay.hotmart.com/X100700705N?off=9fkas19r&checkoutMode=10&src=quiz-vsl-b&sck=quiz-vsl-b&name={{nome}}&email={{email}}&phoneac={{telefone_ddd}}&phonenumber={{telefone_numero}}",
+       "newTab": false
+      }
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "2eWMdo",
+     "name": "alert_2eWMdo",
+     "type": "alert",
+     "props": {
+      "text": "**Garantia de 7 dias:** entre, conheça as aulas e, se não for para você, peça o reembolso dentro do prazo.",
+      "variant": "success",
+      "icon": "🛡️"
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "61Yw1L",
+     "name": "faq_61Yw1L",
+     "type": "faq",
+     "props": {
+      "items": [
+       {
+        "q": "Não tenho muito tempo. Vou conseguir acompanhar?",
+        "a": "Sim. Com cerca de 15 minutos por dia você assiste a uma aula, e muitas podem ser ouvidas como podcast, no trânsito ou organizando a casa."
+       },
+       {
+        "q": "Preciso saber de literatura, arte ou história?",
+        "a": "Não. Os conteúdos foram feitos também para quem está começando do zero."
+       },
+       {
+        "q": "Será que já passei da idade?",
+        "a": "A Escola tem alunas do início da vida adulta até perto da aposentadoria. Não existe idade para continuar aprendendo."
+       },
+       {
+        "q": "E se não for para mim?",
+        "a": "Você tem 7 dias de garantia. Entre, conheça as aulas e, se não fizer sentido, peça o reembolso dentro do prazo."
+       }
+      ]
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    },
+    {
+     "id": "kYFJcj",
+     "name": "button_kYFJcj",
+     "type": "button",
+     "props": {
+      "text": "GARANTIR MEUS 10% DE DESCONTO",
+      "nav": {
+       "kind": "url",
+       "url": "https://pay.hotmart.com/X100700705N?off=9fkas19r&checkoutMode=10&src=quiz-vsl-b&sck=quiz-vsl-b&name={{nome}}&email={{email}}&phoneac={{telefone_ddd}}&phonenumber={{telefone_numero}}",
+       "newTab": false
+      },
+      "size": "lg",
+      "pulse": true
+     },
+     "style": {
+      "width": 100,
+      "align": "center",
+      "marginTop": 0
+     },
+     "display": {
+      "groups": []
+     }
+    }
+   ]
+  }
+ ],
+ "theme": {
+  "primary": "#6b1e2e",
+  "primaryText": "#ffffff",
+  "background": "#fbf6f2",
+  "bgType": "none",
+  "titleFont": "Playfair Display",
+  "titleColor": "#2a0f12",
+  "titleSize": 27,
+  "titleWeight": 700,
+  "textFont": "Inter",
+  "textColor": "#4a3a36",
+  "textSize": 16,
+  "radius": 14,
+  "width": 460,
+  "spacing": 16,
+  "verticalAlign": "top",
+  "progressStyle": "thin",
+  "logoSize": "normal",
+  "logoPos": "center",
+  "cardBg": "#ffffff",
+  "cardBorder": "#ecdcd2",
+  "logoUrl": "https://exclusivo.escolaparadamas.com.br/assets/logo-escola-n7zCSKHS.webp"
+ },
+ "settings": {
+  "webhookOn": "lead",
+  "filter": {
+   "enabled": false,
+   "devices": [
+    "mobile",
+    "desktop",
+    "tablet"
+   ]
+  },
+  "seoTitle": "Você saberia como agir e o que falar? | Escola para Damas",
+  "seoDescription": "Responda algumas perguntas, assista a dois trechos da aula da Letícia Fagundes e receba a sua trilha.",
+  "ogImage": "https://exclusivo.escolaparadamas.com.br/assets/capa-comunicacao-C-3aHev4.webp"
+ }
+}
