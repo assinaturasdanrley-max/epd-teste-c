@@ -25,6 +25,8 @@ declare global {
 }
 
 const FUNNEL_SCRIPT = "https://checkout.hotmart.com/lib/hotmart-checkout-elements.js";
+const VIMEO_SRC =
+  "https://player.vimeo.com/video/1242573698?h=2434617828&badge=0&autopause=0&title=0&byline=0&portrait=0&dnt=1";
 const FALLBACK_URL = "https://pay.hotmart.com/X100700705N?off=z2g8klxb&checkoutMode=10&src=upsell-ebook-etiqueta";
 const FONTS_URL =
   "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=DM+Sans:opsz,wght@9..40,300..700&display=swap";
@@ -106,13 +108,22 @@ const LandingEbookUpsell = () => {
 
       <section className="eb-hero up-hero" id="up-oferta">
         <div className="eb-wrap eb-center">
-          <span className="eb-eye">Espere, antes de fechar esta página</span>
+          <span className="eb-eye">Seu e-book está sendo preparado</span>
+          <p className="up-note">Enquanto isso, assista ao vídeo abaixo. <b>Esta condição é única nessa página.</b></p>
           <h1>
             Você começou pela etiqueta. <em>Que tal levar a Escola inteira?</em>
           </h1>
           <p className="eb-lead up-lead">
             Só para quem acabou de comprar o e-book: entre na Escola para Damas e tenha acesso a todos os cursos da Letícia Fagundes por um ano, incluindo o <b>Guia da Anfitriã Perfeita</b>, que continua exatamente de onde o e-book parou.
           </p>
+          <div className="up-video">
+            <iframe
+              src={VIMEO_SRC}
+              title="Um convite especial da Letícia"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              allowFullScreen
+            />
+          </div>
           <OfferBox id="hotmart-sales-funnel" />
           {!widgetOk && (
             <a className="eb-btn wide up-fallback" href={FALLBACK_URL}>
