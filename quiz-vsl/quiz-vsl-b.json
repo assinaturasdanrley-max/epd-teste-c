@@ -3,7 +3,7 @@
  "slug": "quiz-vsl-b",
  "steps": [
   {
-   "id": "8KHclS",
+   "id": "1arG5D",
    "title": "01 Abertura",
    "header": {
     "logo": true,
@@ -12,8 +12,8 @@
    },
    "blocks": [
     {
-     "id": "6lDI3D",
-     "name": "text_6lDI3D",
+     "id": "gWkFSS",
+     "name": "text_gWkFSS",
      "type": "text",
      "props": {
       "text": "Você saberia **como agir e o que falar** num jantar, numa reunião ou com a família dele?",
@@ -30,8 +30,8 @@
      }
     },
     {
-     "id": "kYFGSW",
-     "name": "text_kYFGSW",
+     "id": "7k7343",
+     "name": "text_7k7343",
      "type": "text",
      "props": {
       "text": "Responda algumas perguntas rápidas e assista a dois trechos da aula da **Letícia Fagundes**. No fim, você recebe a trilha recomendada para o seu momento.",
@@ -48,14 +48,14 @@
      }
     },
     {
-     "id": "oqRvAO",
-     "name": "button_oqRvAO",
+     "id": "SSFz0b",
+     "name": "button_SSFz0b",
      "type": "button",
      "props": {
       "text": "COMEÇAR",
       "nav": {
        "kind": "step",
-       "stepId": "XZGTj3"
+       "stepId": "vwxM9x"
       },
       "size": "lg",
       "pulse": true
@@ -70,8 +70,8 @@
      }
     },
     {
-     "id": "KkaqyP",
-     "name": "text_KkaqyP",
+     "id": "Lc2YE4",
+     "name": "text_Lc2YE4",
      "type": "text",
      "props": {
       "text": "⏱️ 8 perguntas · 2 vídeos curtos",
@@ -90,7 +90,7 @@
    ]
   },
   {
-   "id": "XZGTj3",
+   "id": "vwxM9x",
    "title": "02 Idade",
    "header": {
     "logo": true,
@@ -99,7 +99,7 @@
    },
    "blocks": [
     {
-     "id": "3DLKST",
+     "id": "LrLUXJ",
      "name": "idade",
      "type": "options",
      "props": {
@@ -107,7 +107,7 @@
       "intro": "Para começar, qual é a sua idade?",
       "options": [
        {
-        "id": "oxp3cb",
+        "id": "EzeFSh",
         "label": "18 a 24",
         "value": "18-24",
         "points": 0,
@@ -115,7 +115,7 @@
         "emoji": "🌱"
        },
        {
-        "id": "jKqZjQ",
+        "id": "Kd5bCe",
         "label": "25 a 34",
         "value": "25-34",
         "points": 0,
@@ -123,7 +123,7 @@
         "emoji": "🌸"
        },
        {
-        "id": "A2zsds",
+        "id": "RA5znf",
         "label": "35 a 44",
         "value": "35-44",
         "points": 0,
@@ -131,7 +131,7 @@
         "emoji": "🌹"
        },
        {
-        "id": "jOGUMO",
+        "id": "jXfdiB",
         "label": "45 ou mais",
         "value": "45+",
         "points": 0,
@@ -162,7 +162,7 @@
    ]
   },
   {
-   "id": "ElAgMy",
+   "id": "hHdEmn",
    "title": "03 Situacao menos segura",
    "header": {
     "logo": true,
@@ -171,7 +171,7 @@
    },
    "blocks": [
     {
-     "id": "fBiQmM",
+     "id": "aI36fJ",
      "name": "situacao",
      "type": "options",
      "props": {
@@ -179,7 +179,7 @@
       "intro": "Em qual destas situações você se sentiria menos segura hoje?",
       "options": [
        {
-        "id": "tpa0Xe",
+        "id": "6RniGa",
         "label": "Jantar num restaurante refinado",
         "value": "jantar",
         "points": 0,
@@ -187,7 +187,7 @@
         "emoji": "🍽️"
        },
        {
-        "id": "7JZ5ei",
+        "id": "F6WtIh",
         "label": "Reunião de trabalho ou entrevista",
         "value": "trabalho",
         "points": 0,
@@ -195,7 +195,7 @@
         "emoji": "💼"
        },
        {
-        "id": "7I9Pqi",
+        "id": "z0qOPq",
         "label": "Primeiro encontro",
         "value": "encontro",
         "points": 0,
@@ -203,7 +203,7 @@
         "emoji": "🌹"
        },
        {
-        "id": "af8v0p",
+        "id": "CyLpfZ",
         "label": "Conhecer a família dele",
         "value": "familia",
         "points": 0,
@@ -234,7 +234,7 @@
    ]
   },
   {
-   "id": "0yqBo2",
+   "id": "zYpUJm",
    "title": "04 Quando precisa se posicionar",
    "header": {
     "logo": true,
@@ -243,7 +243,7 @@
    },
    "blocks": [
     {
-     "id": "vK6m1B",
+     "id": "Jv1G6B",
      "name": "posicionar",
      "type": "options",
      "props": {
@@ -251,28 +251,28 @@
       "intro": "Quando você precisa se posicionar, o que costuma acontecer?",
       "options": [
        {
-        "id": "BlwEvU",
+        "id": "z3JKLz",
         "label": "Falo e soo dura",
         "value": "dura",
         "points": 0,
         "target": ""
        },
        {
-        "id": "J12233",
+        "id": "QxGPjJ",
         "label": "Me calo para evitar conflito",
         "value": "calo",
         "points": 0,
         "target": ""
        },
        {
-        "id": "3XYjxC",
+        "id": "JVhGb2",
         "label": "Falo, mas não sou levada a sério",
         "value": "nao_seria",
         "points": 0,
         "target": ""
        },
        {
-        "id": "eQxQZ1",
+        "id": "mwEKa7",
         "label": "Me sinto segura",
         "value": "segura",
         "points": 0,
@@ -302,7 +302,7 @@
    ]
   },
   {
-   "id": "IsRi1p",
+   "id": "A6AIzv",
    "title": "05 Corte B1 Voce sabe como agir",
    "header": {
     "logo": true,
@@ -311,8 +311,8 @@
    },
    "blocks": [
     {
-     "id": "xFNP7Y",
-     "name": "text_xFNP7Y",
+     "id": "KhxDvV",
+     "name": "text_KhxDvV",
      "type": "text",
      "props": {
       "text": "VÍDEO 1 DE 2 · 2 MIN",
@@ -329,8 +329,8 @@
      }
     },
     {
-     "id": "GEPyOl",
-     "name": "text_GEPyOl",
+     "id": "e2CfEG",
+     "name": "text_e2CfEG",
      "type": "text",
      "props": {
       "text": "Você sabe como agir?",
@@ -347,8 +347,8 @@
      }
     },
     {
-     "id": "0D6cMX",
-     "name": "text_0D6cMX",
+     "id": "mASD27",
+     "name": "text_mASD27",
      "type": "text",
      "props": {
       "text": "A Letícia fala da mulher que, quando abre a boca, todos param para ouvir, e de onde ela veio.",
@@ -365,11 +365,11 @@
      }
     },
     {
-     "id": "pzowxs",
-     "name": "html_pzowxs",
+     "id": "qiiakS",
+     "name": "html_qiiakS",
      "type": "html",
      "props": {
-      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B1.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B1_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
+      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B1.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B1_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video><script>(function(){var s=document.currentScript;var box=s&&s.parentElement;if(!box)return;var v=box.querySelector('video');var root=box;while(root&&root.parentElement&&!Array.prototype.some.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)}))root=root.parentElement;var btn=Array.prototype.filter.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)})[0];if(!v||!btn)return;btn.style.display='none';function show(){btn.style.display='';btn.scrollIntoView({behavior:'smooth',block:'center'});}v.addEventListener('ended',show);v.addEventListener('error',show);})();</script>"
      },
      "style": {
       "width": 100,
@@ -381,14 +381,14 @@
      }
     },
     {
-     "id": "g7Wepi",
-     "name": "button_g7Wepi",
+     "id": "7HBb9S",
+     "name": "button_7HBb9S",
      "type": "button",
      "props": {
       "text": "CONTINUAR",
       "nav": {
        "kind": "step",
-       "stepId": "SX3NfG"
+       "stepId": "KErNUi"
       },
       "size": "lg"
      },
@@ -398,16 +398,15 @@
       "marginTop": 0
      },
      "display": {
-      "groups": [],
-      "delay": 20
+      "groups": []
      }
     },
     {
-     "id": "xQb3yj",
-     "name": "text_xQb3yj",
+     "id": "tohwDe",
+     "name": "text_tohwDe",
      "type": "text",
      "props": {
-      "text": "Assista até o fim. O botão aparece em alguns segundos.",
+      "text": "Assista até o fim. O botão para continuar aparece quando o vídeo terminar.",
       "variant": "small",
       "textAlign": "center"
      },
@@ -423,7 +422,7 @@
    ]
   },
   {
-   "id": "SX3NfG",
+   "id": "KErNUi",
    "title": "06 O que quer que percebam",
    "header": {
     "logo": true,
@@ -432,7 +431,7 @@
    },
    "blocks": [
     {
-     "id": "M4pMYx",
+     "id": "e08TJl",
      "name": "percebam",
      "type": "options",
      "props": {
@@ -440,28 +439,28 @@
       "intro": "O que você mais quer que as pessoas percebam em você?",
       "options": [
        {
-        "id": "WXggh2",
+        "id": "mh5O4S",
         "label": "Que sou ouvida e respeitada",
         "value": "respeitada",
         "points": 0,
         "target": ""
        },
        {
-        "id": "1c2TWO",
+        "id": "JF3tyW",
         "label": "Minha elegância",
         "value": "elegancia",
         "points": 0,
         "target": ""
        },
        {
-        "id": "7HHaPV",
+        "id": "6iQoY7",
         "label": "Minha calma",
         "value": "calma",
         "points": 0,
         "target": ""
        },
        {
-        "id": "FOHnGR",
+        "id": "acn5g2",
         "label": "Que tenho assunto",
         "value": "assunto",
         "points": 0,
@@ -491,7 +490,7 @@
    ]
   },
   {
-   "id": "mSys8U",
+   "id": "pDzTXz",
    "title": "07 Voce sempre voce nunca",
    "header": {
     "logo": true,
@@ -500,7 +499,7 @@
    },
    "blocks": [
     {
-     "id": "cyr2YD",
+     "id": "0PmUNg",
      "name": "sempre_nunca",
      "type": "options",
      "props": {
@@ -508,7 +507,7 @@
       "intro": "Numa discussão com alguém que você ama, você já disse \"você sempre\" ou \"você nunca\"?",
       "options": [
        {
-        "id": "DZAML4",
+        "id": "DBoElV",
         "label": "Sim, muitas vezes",
         "value": "muitas",
         "points": 0,
@@ -516,7 +515,7 @@
         "emoji": "😬"
        },
        {
-        "id": "Wfl1i5",
+        "id": "g8rS9Q",
         "label": "Às vezes",
         "value": "as_vezes",
         "points": 0,
@@ -524,7 +523,7 @@
         "emoji": "🤏"
        },
        {
-        "id": "QXTZk8",
+        "id": "oc1CtW",
         "label": "Nunca",
         "value": "nunca",
         "points": 0,
@@ -555,7 +554,7 @@
    ]
   },
   {
-   "id": "uOTiE9",
+   "id": "2o1Yix",
    "title": "07b Corte B2 Como falar para ser ouvida",
    "header": {
     "logo": true,
@@ -564,8 +563,8 @@
    },
    "blocks": [
     {
-     "id": "wcXEbq",
-     "name": "text_wcXEbq",
+     "id": "fMIANF",
+     "name": "text_fMIANF",
      "type": "text",
      "props": {
       "text": "VÍDEO 2 DE 2 · 3 MIN",
@@ -582,8 +581,8 @@
      }
     },
     {
-     "id": "aZWrBz",
-     "name": "text_aZWrBz",
+     "id": "cR1qs4",
+     "name": "text_cR1qs4",
      "type": "text",
      "props": {
       "text": "Como falar para ser ouvida",
@@ -600,8 +599,8 @@
      }
     },
     {
-     "id": "dSQzT6",
-     "name": "text_dSQzT6",
+     "id": "UiA9wD",
+     "name": "text_UiA9wD",
      "type": "text",
      "props": {
       "text": "O erro que fecha qualquer conversa e o que dizer no lugar, com firmeza e sem perder a delicadeza.",
@@ -618,11 +617,11 @@
      }
     },
     {
-     "id": "oIDC4y",
-     "name": "html_oIDC4y",
+     "id": "uNC36v",
+     "name": "html_uNC36v",
      "type": "html",
      "props": {
-      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B2.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B2_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
+      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B2.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/B2_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video><script>(function(){var s=document.currentScript;var box=s&&s.parentElement;if(!box)return;var v=box.querySelector('video');var root=box;while(root&&root.parentElement&&!Array.prototype.some.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)}))root=root.parentElement;var btn=Array.prototype.filter.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)})[0];if(!v||!btn)return;btn.style.display='none';function show(){btn.style.display='';btn.scrollIntoView({behavior:'smooth',block:'center'});}v.addEventListener('ended',show);v.addEventListener('error',show);})();</script>"
      },
      "style": {
       "width": 100,
@@ -634,14 +633,14 @@
      }
     },
     {
-     "id": "xQGyRF",
-     "name": "button_xQGyRF",
+     "id": "elB4id",
+     "name": "button_elB4id",
      "type": "button",
      "props": {
       "text": "CONTINUAR",
       "nav": {
        "kind": "step",
-       "stepId": "uPXeUq"
+       "stepId": "5rr7hb"
       },
       "size": "lg"
      },
@@ -651,16 +650,15 @@
       "marginTop": 0
      },
      "display": {
-      "groups": [],
-      "delay": 20
+      "groups": []
      }
     },
     {
-     "id": "4OKlE9",
-     "name": "text_4OKlE9",
+     "id": "KSJA48",
+     "name": "text_KSJA48",
      "type": "text",
      "props": {
-      "text": "Assista até o fim. O botão aparece em alguns segundos.",
+      "text": "Assista até o fim. O botão para continuar aparece quando o vídeo terminar.",
       "variant": "small",
       "textAlign": "center"
      },
@@ -676,7 +674,7 @@
    ]
   },
   {
-   "id": "uPXeUq",
+   "id": "5rr7hb",
    "title": "08 O que sente depois do corte 2",
    "header": {
     "logo": true,
@@ -685,7 +683,7 @@
    },
    "blocks": [
     {
-     "id": "i6KulE",
+     "id": "i1KIcF",
      "name": "sente",
      "type": "options",
      "props": {
@@ -693,7 +691,7 @@
       "intro": "Depois desse trecho, o que você sente?",
       "options": [
        {
-        "id": "2iMGmy",
+        "id": "pt7psY",
         "label": "Quero aprender mais assim",
         "value": "quero",
         "points": 0,
@@ -701,7 +699,7 @@
         "emoji": "✨"
        },
        {
-        "id": "jWG59s",
+        "id": "p7cq3k",
         "label": "Gostei, mas tenho pouco tempo",
         "value": "tempo",
         "points": 0,
@@ -709,7 +707,7 @@
         "emoji": "⏳"
        },
        {
-        "id": "geaTjB",
+        "id": "rb4xxF",
         "label": "Ainda estou só curiosa",
         "value": "curiosa",
         "points": 0,
@@ -740,7 +738,7 @@
    ]
   },
   {
-   "id": "OZOiBc",
+   "id": "Upi6fd",
    "title": "09 Tempo disponivel",
    "header": {
     "logo": true,
@@ -749,7 +747,7 @@
    },
    "blocks": [
     {
-     "id": "JVz0m3",
+     "id": "RBaQvz",
      "name": "tempo",
      "type": "options",
      "props": {
@@ -757,7 +755,7 @@
       "intro": "Quanto tempo por dia você conseguiria reservar para você?",
       "options": [
        {
-        "id": "sVVvJr",
+        "id": "l9nK2j",
         "label": "Menos de 10 minutos",
         "value": "pouco",
         "points": 0,
@@ -765,7 +763,7 @@
         "emoji": "⏳"
        },
        {
-        "id": "REP8mO",
+        "id": "nsbEft",
         "label": "15 minutos",
         "value": "15",
         "points": 0,
@@ -773,7 +771,7 @@
         "emoji": "☕"
        },
        {
-        "id": "0w4s0Q",
+        "id": "5uHIrB",
         "label": "30 minutos",
         "value": "30",
         "points": 0,
@@ -781,7 +779,7 @@
         "emoji": "📚"
        },
        {
-        "id": "qJk5w2",
+        "id": "EBmNuU",
         "label": "1 hora ou mais",
         "value": "60",
         "points": 0,
@@ -812,7 +810,7 @@
    ]
   },
   {
-   "id": "R18Q7r",
+   "id": "fBQAC5",
    "title": "10 Captura",
    "header": {
     "logo": true,
@@ -821,8 +819,8 @@
    },
    "blocks": [
     {
-     "id": "9Amxb4",
-     "name": "text_9Amxb4",
+     "id": "C6tUra",
+     "name": "text_C6tUra",
      "type": "text",
      "props": {
       "text": "Sua trilha recomendada está pronta ✨",
@@ -839,8 +837,8 @@
      }
     },
     {
-     "id": "tm7jhd",
-     "name": "text_tm7jhd",
+     "id": "kfUaY1",
+     "name": "text_kfUaY1",
      "type": "text",
      "props": {
       "text": "Preencha para liberar a trilha que a Letícia indica para o seu momento.",
@@ -857,7 +855,7 @@
      }
     },
     {
-     "id": "ZeOsT2",
+     "id": "16fr83",
      "name": "nome",
      "type": "field",
      "props": {
@@ -876,7 +874,7 @@
      }
     },
     {
-     "id": "V78Xb5",
+     "id": "7XOyQR",
      "name": "email",
      "type": "email",
      "props": {
@@ -894,7 +892,7 @@
      }
     },
     {
-     "id": "9GZBUe",
+     "id": "VZV4V8",
      "name": "telefone",
      "type": "phone",
      "props": {
@@ -913,14 +911,14 @@
      }
     },
     {
-     "id": "GcEiMW",
-     "name": "button_GcEiMW",
+     "id": "WPSl4D",
+     "name": "button_WPSl4D",
      "type": "button",
      "props": {
       "text": "VER MINHA TRILHA",
       "nav": {
        "kind": "step",
-       "stepId": "XCgVh2"
+       "stepId": "qGwekg"
       },
       "size": "lg"
      },
@@ -934,8 +932,8 @@
      }
     },
     {
-     "id": "9VGD2s",
-     "name": "text_9VGD2s",
+     "id": "9CIidn",
+     "name": "text_9CIidn",
      "type": "text",
      "props": {
       "text": "🔒 Seus dados estão seguros e não serão compartilhados.",
@@ -954,7 +952,7 @@
    ]
   },
   {
-   "id": "XCgVh2",
+   "id": "qGwekg",
    "title": "11 Analisando",
    "header": {
     "logo": true,
@@ -963,8 +961,8 @@
    },
    "blocks": [
     {
-     "id": "ILAeov",
-     "name": "loading_ILAeov",
+     "id": "RNbZDJ",
+     "name": "loading_RNbZDJ",
      "type": "loading",
      "props": {
       "title": "Montando a sua trilha...",
@@ -976,7 +974,7 @@
       "redirect": true,
       "nav": {
        "kind": "step",
-       "stepId": "2W0gl5"
+       "stepId": "gpsALa"
       },
       "layout": "bar"
      },
@@ -990,8 +988,8 @@
      }
     },
     {
-     "id": "ijYMKR",
-     "name": "checklist_ijYMKR",
+     "id": "CJQRm4",
+     "name": "checklist_CJQRm4",
      "type": "checklist",
      "props": {
       "items": "Lendo suas respostas\nCruzando com o que a Letícia mostrou nos vídeos\nSeparando os cursos para o seu momento",
@@ -1010,7 +1008,7 @@
    ]
   },
   {
-   "id": "2W0gl5",
+   "id": "gpsALa",
    "title": "12 Resultado e oferta",
    "header": {
     "logo": true,
@@ -1019,8 +1017,8 @@
    },
    "blocks": [
     {
-     "id": "wzKLT5",
-     "name": "html_wzKLT5",
+     "id": "Zvdn90",
+     "name": "html_Zvdn90",
      "type": "html",
      "props": {
       "code": "<script>(function(){try{var k='send_Eyu6nOz';if(sessionStorage.getItem(k))return;var tel=`{{telefone}}`.replace(/\\D/g,'');if(tel&&tel.indexOf('55')!==0)tel='55'+tel;var d=new FormData();d.append('first_name',`{{nome}}`);d.append('email',`{{email}}`);if(tel)d.append('phone','+'+tel);d.append('b_Eyu6nOz','');var qs=location.search?'&'+location.search.slice(1):'';fetch('https://handler.send.hotmart.com/subscription/Eyu6nOz?hotfeature=53'+qs,{method:'POST',mode:'no-cors',body:d});sessionStorage.setItem(k,'1');}catch(e){}})();</script>"
@@ -1035,8 +1033,8 @@
      }
     },
     {
-     "id": "C4ifBC",
-     "name": "text_C4ifBC",
+     "id": "Z85XfY",
+     "name": "text_Z85XfY",
      "type": "text",
      "props": {
       "text": "{{nome}}, o seu caminho começa pela",
@@ -1053,8 +1051,8 @@
      }
     },
     {
-     "id": "Sw7u2y",
-     "name": "text_Sw7u2y",
+     "id": "4p5zam",
+     "name": "text_4p5zam",
      "type": "text",
      "props": {
       "text": "COMUNICAÇÃO",
@@ -1071,8 +1069,8 @@
      }
     },
     {
-     "id": "lTuOtd",
-     "name": "text_lTuOtd",
+     "id": "PXOkkK",
+     "name": "text_PXOkkK",
      "type": "text",
      "props": {
       "text": "Você sabe o que pensa, mas na hora de falar as palavras não saem como gostaria. Às vezes se cala para evitar conflito, às vezes fala e sente que não foi levada a sério.",
@@ -1089,8 +1087,8 @@
      }
     },
     {
-     "id": "zZB4Dk",
-     "name": "text_zZB4Dk",
+     "id": "DEokon",
+     "name": "text_DEokon",
      "type": "text",
      "props": {
       "text": "**Sua trilha recomendada:**",
@@ -1107,8 +1105,8 @@
      }
     },
     {
-     "id": "TwoYyp",
-     "name": "checklist_TwoYyp",
+     "id": "ibvb44",
+     "name": "checklist_ibvb44",
      "type": "checklist",
      "props": {
       "items": "🎙️ Comunicação FMA: Feminina, Magnética e Assertiva\n🍽️ Guia da Anfitriã Perfeita: como receber e se portar com elegância\n🧠 Os 4 Temperamentos: entender como cada pessoa reage",
@@ -1125,8 +1123,8 @@
      }
     },
     {
-     "id": "8MYuXv",
-     "name": "text_8MYuXv",
+     "id": "imOO1M",
+     "name": "text_imOO1M",
      "type": "text",
      "props": {
       "text": "Você passa a dizer o que pensa com clareza e firmeza, sem perder a doçura, e a se sentir segura em qualquer ambiente.",
@@ -1143,8 +1141,8 @@
      }
     },
     {
-     "id": "Uur3pn",
-     "name": "text_Uur3pn",
+     "id": "YtvhgS",
+     "name": "text_YtvhgS",
      "type": "text",
      "props": {
       "text": "E isso é só o começo. Na **Escola para Damas** você tem mais de 10 cursos e mais de 200 aulas sobre cultura, comunicação, feminilidade, inteligência emocional e elegância.",
@@ -1161,8 +1159,8 @@
      }
     },
     {
-     "id": "nN87pq",
-     "name": "text_nN87pq",
+     "id": "6Wj5Ts",
+     "name": "text_6Wj5Ts",
      "type": "text",
      "props": {
       "text": "Antes de ver o valor, assista a este recado da Letícia:",
@@ -1179,8 +1177,8 @@
      }
     },
     {
-     "id": "id2EaU",
-     "name": "html_id2EaU",
+     "id": "CIugXZ",
+     "name": "html_CIugXZ",
      "type": "html",
      "props": {
       "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/OFERTA.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/OFERTA_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
@@ -1195,8 +1193,8 @@
      }
     },
     {
-     "id": "qdBxGt",
-     "name": "alert_qdBxGt",
+     "id": "jf16jX",
+     "name": "alert_jf16jX",
      "type": "alert",
      "props": {
       "text": "Você disse que tem pouco tempo: as aulas foram pensadas para **cerca de 15 minutos** e muitas podem ser **ouvidas como podcast**.",
@@ -1211,10 +1209,10 @@
      "display": {
       "groups": [
        {
-        "id": "BkCZB",
+        "id": "juBd1",
         "rules": [
          {
-          "id": "pDukL",
+          "id": "r1nxI",
           "left": "@tempo",
           "op": "eq",
           "right": "pouco"
@@ -1225,8 +1223,8 @@
      }
     },
     {
-     "id": "ZhGcXV",
-     "name": "price_ZhGcXV",
+     "id": "G88YFH",
+     "name": "price_G88YFH",
      "type": "price",
      "props": {
       "badge": "10% DE DESCONTO NESTA PÁGINA",
@@ -1252,8 +1250,8 @@
      }
     },
     {
-     "id": "2eWMdo",
-     "name": "alert_2eWMdo",
+     "id": "b9SoL4",
+     "name": "alert_b9SoL4",
      "type": "alert",
      "props": {
       "text": "**Garantia de 7 dias:** entre, conheça as aulas e, se não for para você, peça o reembolso dentro do prazo.",
@@ -1270,8 +1268,8 @@
      }
     },
     {
-     "id": "61Yw1L",
-     "name": "faq_61Yw1L",
+     "id": "V8cvwB",
+     "name": "faq_V8cvwB",
      "type": "faq",
      "props": {
       "items": [
@@ -1303,8 +1301,8 @@
      }
     },
     {
-     "id": "kYFJcj",
-     "name": "button_kYFJcj",
+     "id": "1j0dsZ",
+     "name": "button_1j0dsZ",
      "type": "button",
      "props": {
       "text": "GARANTIR MEUS 10% DE DESCONTO",

@@ -17,11 +17,22 @@ def q(name, intro, options, **kw):
     return {"type": "options", "name": name, "intro": intro, "options": options, **kw}
 
 
-def video(corte, ratio="1080/1680"):
+def video(corte, ratio="1080/1680", gate=False):
     code = (
         f'<video src="{M}{corte}.mp4" poster="{M}{corte}_poster.jpg" controls playsinline preload="metadata" '
         f'style="width:100%;aspect-ratio:{ratio};border-radius:14px;background:#000;display:block"></video>'
     )
+    if gate:
+        # Esconde o botão CONTINUAR da etapa até o vídeo terminar (ou dar erro).
+        code += (
+            "<script>(function(){var s=document.currentScript;var box=s&&s.parentElement;if(!box)return;"
+            "var v=box.querySelector('video');var root=box;"
+            "while(root&&root.parentElement&&!Array.prototype.some.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)}))root=root.parentElement;"
+            "var btn=Array.prototype.filter.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)})[0];"
+            "if(!v||!btn)return;btn.style.display='none';"
+            "function show(){btn.style.display='';btn.scrollIntoView({behavior:'smooth',block:'center'});}"
+            "v.addEventListener('ended',show);v.addEventListener('error',show);})();</script>"
+        )
     return {"type": "html", "code": code}
 
 
@@ -43,9 +54,9 @@ def corte_step(key, title, eyebrow, titulo, apoio, corte, nxt, delay=20):
         t(eyebrow, "small"),
         t(titulo, "h2"),
         t(apoio),
-        video(corte),
-        {"type": "button", "text": "CONTINUAR", "goto": nxt, "size": "lg", "delay": delay},
-        t("Assista até o fim. O botão aparece em alguns segundos.", "small"),
+        video(corte, gate=True),
+        {"type": "button", "text": "CONTINUAR", "goto": nxt, "size": "lg"},
+        t("Assista até o fim. O botão para continuar aparece quando o vídeo terminar.", "small"),
     ]}
 
 

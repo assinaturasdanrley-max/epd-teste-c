@@ -3,7 +3,7 @@
  "slug": "quiz-vsl-a",
  "steps": [
   {
-   "id": "2OsTXb",
+   "id": "E3UkIT",
    "title": "01 Abertura",
    "header": {
     "logo": true,
@@ -12,8 +12,8 @@
    },
    "blocks": [
     {
-     "id": "fJ2E0f",
-     "name": "text_fJ2E0f",
+     "id": "PVUZiE",
+     "name": "text_PVUZiE",
      "type": "text",
      "props": {
       "text": "O que falta para você ter assunto em **qualquer roda de conversa**?",
@@ -30,8 +30,8 @@
      }
     },
     {
-     "id": "zPiiHm",
-     "name": "text_zPiiHm",
+     "id": "Nnc340",
+     "name": "text_Nnc340",
      "type": "text",
      "props": {
       "text": "Responda algumas perguntas rápidas e assista a dois trechos da aula da **Letícia Fagundes**. No fim, você recebe a trilha recomendada para o seu momento.",
@@ -48,14 +48,14 @@
      }
     },
     {
-     "id": "XNdJdk",
-     "name": "button_XNdJdk",
+     "id": "TLO8t7",
+     "name": "button_TLO8t7",
      "type": "button",
      "props": {
       "text": "COMEÇAR",
       "nav": {
        "kind": "step",
-       "stepId": "SLFQxO"
+       "stepId": "xRGXTw"
       },
       "size": "lg",
       "pulse": true
@@ -70,8 +70,8 @@
      }
     },
     {
-     "id": "AUtqDm",
-     "name": "text_AUtqDm",
+     "id": "lhIPuR",
+     "name": "text_lhIPuR",
      "type": "text",
      "props": {
       "text": "⏱️ 8 perguntas · 2 vídeos curtos",
@@ -90,7 +90,7 @@
    ]
   },
   {
-   "id": "SLFQxO",
+   "id": "xRGXTw",
    "title": "02 Idade",
    "header": {
     "logo": true,
@@ -99,7 +99,7 @@
    },
    "blocks": [
     {
-     "id": "qnX0Ty",
+     "id": "PYn1HQ",
      "name": "idade",
      "type": "options",
      "props": {
@@ -107,7 +107,7 @@
       "intro": "Para começar, qual é a sua idade?",
       "options": [
        {
-        "id": "PjRyDP",
+        "id": "xUKW9y",
         "label": "18 a 24",
         "value": "18-24",
         "points": 0,
@@ -115,7 +115,7 @@
         "emoji": "🌱"
        },
        {
-        "id": "8nEPKr",
+        "id": "rJad4m",
         "label": "25 a 34",
         "value": "25-34",
         "points": 0,
@@ -123,7 +123,7 @@
         "emoji": "🌸"
        },
        {
-        "id": "wDRgY8",
+        "id": "RIGta0",
         "label": "35 a 44",
         "value": "35-44",
         "points": 0,
@@ -131,7 +131,7 @@
         "emoji": "🌹"
        },
        {
-        "id": "PwKBGP",
+        "id": "aGgJQf",
         "label": "45 ou mais",
         "value": "45+",
         "points": 0,
@@ -162,7 +162,7 @@
    ]
   },
   {
-   "id": "6iqR8X",
+   "id": "YBhdJm",
    "title": "03 Roda de conversa",
    "header": {
     "logo": true,
@@ -171,7 +171,7 @@
    },
    "blocks": [
     {
-     "id": "2SC7aP",
+     "id": "cpN9NA",
      "name": "roda",
      "type": "options",
      "props": {
@@ -179,28 +179,28 @@
       "intro": "Numa roda de conversa sobre livros, arte ou história, o que você costuma fazer?",
       "options": [
        {
-        "id": "jE4fh4",
+        "id": "k13Hja",
         "label": "Participo da conversa",
         "value": "participo",
         "points": 0,
         "target": ""
        },
        {
-        "id": "qJgZ0i",
+        "id": "VMMPZS",
         "label": "Escuto e só sorrio",
         "value": "sorrio",
         "points": 0,
         "target": ""
        },
        {
-        "id": "RNz2xG",
+        "id": "Rx1LTf",
         "label": "Mudo de assunto",
         "value": "mudo",
         "points": 0,
         "target": ""
        },
        {
-        "id": "Eo8CTK",
+        "id": "LhS4SX",
         "label": "Fico quieta e me sinto de fora",
         "value": "fora",
         "points": 0,
@@ -230,7 +230,7 @@
    ]
   },
   {
-   "id": "F8cNMn",
+   "id": "jMNPeR",
    "title": "04 Frases que ja pensou",
    "header": {
     "logo": true,
@@ -239,7 +239,7 @@
    },
    "blocks": [
     {
-     "id": "kmbhXD",
+     "id": "2Dg9T0",
      "name": "frases",
      "type": "options",
      "props": {
@@ -247,28 +247,28 @@
       "intro": "Qual destas frases você já pensou sobre si mesma? **Marque todas.**",
       "options": [
        {
-        "id": "hYvpDn",
+        "id": "BdVOPg",
         "label": "Fico de fora das rodas de conversa",
         "value": "fora",
         "points": 0,
         "target": ""
        },
        {
-        "id": "Tsb3a7",
+        "id": "zUNXGi",
         "label": "Às vezes me sinto rasa",
         "value": "rasa",
         "points": 0,
         "target": ""
        },
        {
-        "id": "lEdVtq",
+        "id": "pXnz6x",
         "label": "Tenho potencial, mas não sei por onde começar",
         "value": "potencial",
         "points": 0,
         "target": ""
        },
        {
-        "id": "zFA9sa",
+        "id": "CuSadB",
         "label": "Sou um diamante bruto que precisa ser lapidado",
         "value": "diamante",
         "points": 0,
@@ -296,14 +296,14 @@
      }
     },
     {
-     "id": "FhWYPU",
-     "name": "button_FhWYPU",
+     "id": "BXCGxd",
+     "name": "button_BXCGxd",
      "type": "button",
      "props": {
       "text": "CONTINUAR",
       "nav": {
        "kind": "step",
-       "stepId": "agNjtv"
+       "stepId": "s67Kgf"
       }
      },
      "style": {
@@ -318,7 +318,7 @@
    ]
   },
   {
-   "id": "agNjtv",
+   "id": "s67Kgf",
    "title": "05 Corte A1 Voce se reconhece",
    "header": {
     "logo": true,
@@ -327,8 +327,8 @@
    },
    "blocks": [
     {
-     "id": "GSD7aP",
-     "name": "text_GSD7aP",
+     "id": "P4YM7u",
+     "name": "text_P4YM7u",
      "type": "text",
      "props": {
       "text": "VÍDEO 1 DE 2 · 2 MIN",
@@ -345,8 +345,8 @@
      }
     },
     {
-     "id": "wQ2BBI",
-     "name": "text_wQ2BBI",
+     "id": "bVEYgO",
+     "name": "text_bVEYgO",
      "type": "text",
      "props": {
       "text": "Você se reconhece?",
@@ -363,8 +363,8 @@
      }
     },
     {
-     "id": "GepFu2",
-     "name": "text_GepFu2",
+     "id": "dF8gXX",
+     "name": "text_dF8gXX",
      "type": "text",
      "props": {
       "text": "A Letícia conta quem são as mulheres que chegam até ela. Veja se alguma delas é você.",
@@ -381,11 +381,11 @@
      }
     },
     {
-     "id": "Rh8Nii",
-     "name": "html_Rh8Nii",
+     "id": "MJOXZO",
+     "name": "html_MJOXZO",
      "type": "html",
      "props": {
-      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A1.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A1_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
+      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A1.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A1_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video><script>(function(){var s=document.currentScript;var box=s&&s.parentElement;if(!box)return;var v=box.querySelector('video');var root=box;while(root&&root.parentElement&&!Array.prototype.some.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)}))root=root.parentElement;var btn=Array.prototype.filter.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)})[0];if(!v||!btn)return;btn.style.display='none';function show(){btn.style.display='';btn.scrollIntoView({behavior:'smooth',block:'center'});}v.addEventListener('ended',show);v.addEventListener('error',show);})();</script>"
      },
      "style": {
       "width": 100,
@@ -397,14 +397,14 @@
      }
     },
     {
-     "id": "NebEkH",
-     "name": "button_NebEkH",
+     "id": "5tFtim",
+     "name": "button_5tFtim",
      "type": "button",
      "props": {
       "text": "CONTINUAR",
       "nav": {
        "kind": "step",
-       "stepId": "nIufsf"
+       "stepId": "Ebhx7E"
       },
       "size": "lg"
      },
@@ -414,16 +414,15 @@
       "marginTop": 0
      },
      "display": {
-      "groups": [],
-      "delay": 20
+      "groups": []
      }
     },
     {
-     "id": "dmJYjf",
-     "name": "text_dmJYjf",
+     "id": "VC97QU",
+     "name": "text_VC97QU",
      "type": "text",
      "props": {
-      "text": "Assista até o fim. O botão aparece em alguns segundos.",
+      "text": "Assista até o fim. O botão para continuar aparece quando o vídeo terminar.",
       "variant": "small",
       "textAlign": "center"
      },
@@ -439,7 +438,7 @@
    ]
   },
   {
-   "id": "nIufsf",
+   "id": "Ebhx7E",
    "title": "06 Se reconheceu",
    "header": {
     "logo": true,
@@ -448,7 +447,7 @@
    },
    "blocks": [
     {
-     "id": "0KASWa",
+     "id": "M432CC",
      "name": "reconheceu",
      "type": "options",
      "props": {
@@ -456,35 +455,35 @@
       "intro": "Você se reconheceu em alguma dessas mulheres?",
       "options": [
        {
-        "id": "Uzg8lg",
+        "id": "8qRZ4t",
         "label": "A que se dedicou só à carreira",
         "value": "carreira",
         "points": 0,
         "target": ""
        },
        {
-        "id": "izzZZj",
+        "id": "fZ2MpX",
         "label": "A engraçada do grupo",
         "value": "engracada",
         "points": 0,
         "target": ""
        },
        {
-        "id": "RIl0LC",
+        "id": "KTfJ5L",
         "label": "Feminina por fora, rígida por dentro",
         "value": "rigida",
         "points": 0,
         "target": ""
        },
        {
-        "id": "cnYGQ4",
+        "id": "AZLoUr",
         "label": "A que se sente incompleta",
         "value": "incompleta",
         "points": 0,
         "target": ""
        },
        {
-        "id": "2Tfiap",
+        "id": "8SvWy1",
         "label": "Em várias delas",
         "value": "varias",
         "points": 0,
@@ -514,7 +513,7 @@
    ]
   },
   {
-   "id": "JEFW1p",
+   "id": "W4sNkH",
    "title": "07 Mona Lisa no jantar",
    "header": {
     "logo": true,
@@ -523,8 +522,8 @@
    },
    "blocks": [
     {
-     "id": "MIzUhD",
-     "name": "image_MIzUhD",
+     "id": "HHKJgd",
+     "name": "image_HHKJgd",
      "type": "image",
      "props": {
       "src": "https://exclusivo.escolaparadamas.com.br/assets/capa-museu--7CnJr0Q.webp",
@@ -542,7 +541,7 @@
      }
     },
     {
-     "id": "LRGEfa",
+     "id": "1yy5H8",
      "name": "monalisa",
      "type": "options",
      "props": {
@@ -550,7 +549,7 @@
       "intro": "Se alguém comentasse sobre a Mona Lisa num jantar, você saberia continuar a conversa?",
       "options": [
        {
-        "id": "Bn3EIE",
+        "id": "1enuZ3",
         "label": "Sim",
         "value": "sim",
         "points": 0,
@@ -558,7 +557,7 @@
         "emoji": "😊"
        },
        {
-        "id": "wLCOsy",
+        "id": "bB9NMJ",
         "label": "Mais ou menos",
         "value": "mais_ou_menos",
         "points": 0,
@@ -566,7 +565,7 @@
         "emoji": "🤔"
        },
        {
-        "id": "CKgbtB",
+        "id": "eSfMcO",
         "label": "Não saberia",
         "value": "nao",
         "points": 0,
@@ -597,7 +596,7 @@
    ]
   },
   {
-   "id": "FlzbcG",
+   "id": "0sp2yW",
    "title": "07b Corte A2 Mona Lisa",
    "header": {
     "logo": true,
@@ -606,8 +605,8 @@
    },
    "blocks": [
     {
-     "id": "Mcd4Nr",
-     "name": "text_Mcd4Nr",
+     "id": "SUg5Xf",
+     "name": "text_SUg5Xf",
      "type": "text",
      "props": {
       "text": "VÍDEO 2 DE 2 · 2 MIN",
@@ -624,8 +623,8 @@
      }
     },
     {
-     "id": "EIDAoM",
-     "name": "text_EIDAoM",
+     "id": "FP5NLE",
+     "name": "text_FP5NLE",
      "type": "text",
      "props": {
       "text": "A Mona Lisa no jantar",
@@ -642,8 +641,8 @@
      }
     },
     {
-     "id": "MxJvhr",
-     "name": "text_MxJvhr",
+     "id": "ZjAhHa",
+     "name": "text_ZjAhHa",
      "type": "text",
      "props": {
       "text": "Uma mini aula da Letícia para você nunca mais ficar sem assunto quando esse quadro aparecer na conversa.",
@@ -660,11 +659,11 @@
      }
     },
     {
-     "id": "Ux3cIT",
-     "name": "html_Ux3cIT",
+     "id": "LFLiJI",
+     "name": "html_LFLiJI",
      "type": "html",
      "props": {
-      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A2.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A2_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
+      "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A2.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/A2_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video><script>(function(){var s=document.currentScript;var box=s&&s.parentElement;if(!box)return;var v=box.querySelector('video');var root=box;while(root&&root.parentElement&&!Array.prototype.some.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)}))root=root.parentElement;var btn=Array.prototype.filter.call(root.querySelectorAll('button'),function(b){return /CONTINUAR/i.test(b.textContent)})[0];if(!v||!btn)return;btn.style.display='none';function show(){btn.style.display='';btn.scrollIntoView({behavior:'smooth',block:'center'});}v.addEventListener('ended',show);v.addEventListener('error',show);})();</script>"
      },
      "style": {
       "width": 100,
@@ -676,14 +675,14 @@
      }
     },
     {
-     "id": "zdSDZR",
-     "name": "button_zdSDZR",
+     "id": "cQ5PYf",
+     "name": "button_cQ5PYf",
      "type": "button",
      "props": {
       "text": "CONTINUAR",
       "nav": {
        "kind": "step",
-       "stepId": "IPYUOT"
+       "stepId": "1GpEiK"
       },
       "size": "lg"
      },
@@ -693,16 +692,15 @@
       "marginTop": 0
      },
      "display": {
-      "groups": [],
-      "delay": 20
+      "groups": []
      }
     },
     {
-     "id": "xSAg2z",
-     "name": "text_xSAg2z",
+     "id": "fcLtjj",
+     "name": "text_fcLtjj",
      "type": "text",
      "props": {
-      "text": "Assista até o fim. O botão aparece em alguns segundos.",
+      "text": "Assista até o fim. O botão para continuar aparece quando o vídeo terminar.",
       "variant": "small",
       "textAlign": "center"
      },
@@ -718,7 +716,7 @@
    ]
   },
   {
-   "id": "IPYUOT",
+   "id": "1GpEiK",
    "title": "08 O que sente depois do corte 2",
    "header": {
     "logo": true,
@@ -727,7 +725,7 @@
    },
    "blocks": [
     {
-     "id": "FMbzwy",
+     "id": "BA3Aff",
      "name": "sente",
      "type": "options",
      "props": {
@@ -735,7 +733,7 @@
       "intro": "Depois desse trecho, o que você sente?",
       "options": [
        {
-        "id": "PQgTD1",
+        "id": "75F0jH",
         "label": "Quero aprender mais assim",
         "value": "quero",
         "points": 0,
@@ -743,7 +741,7 @@
         "emoji": "✨"
        },
        {
-        "id": "AKCOj1",
+        "id": "0Nd3OS",
         "label": "Gostei, mas tenho pouco tempo",
         "value": "tempo",
         "points": 0,
@@ -751,7 +749,7 @@
         "emoji": "⏳"
        },
        {
-        "id": "nPUCQf",
+        "id": "a1ixYU",
         "label": "Ainda estou só curiosa",
         "value": "curiosa",
         "points": 0,
@@ -782,7 +780,7 @@
    ]
   },
   {
-   "id": "PW9Bhb",
+   "id": "9bfHUz",
    "title": "09 Tempo disponivel",
    "header": {
     "logo": true,
@@ -791,7 +789,7 @@
    },
    "blocks": [
     {
-     "id": "ij5Pdt",
+     "id": "MzBShn",
      "name": "tempo",
      "type": "options",
      "props": {
@@ -799,7 +797,7 @@
       "intro": "Quanto tempo por dia você conseguiria reservar para você?",
       "options": [
        {
-        "id": "JngTly",
+        "id": "6k2kp3",
         "label": "Menos de 10 minutos",
         "value": "pouco",
         "points": 0,
@@ -807,7 +805,7 @@
         "emoji": "⏳"
        },
        {
-        "id": "4I33ow",
+        "id": "Z5qzfu",
         "label": "15 minutos",
         "value": "15",
         "points": 0,
@@ -815,7 +813,7 @@
         "emoji": "☕"
        },
        {
-        "id": "zOYjVO",
+        "id": "R72WdH",
         "label": "30 minutos",
         "value": "30",
         "points": 0,
@@ -823,7 +821,7 @@
         "emoji": "📚"
        },
        {
-        "id": "QcppYV",
+        "id": "p9yrCy",
         "label": "1 hora ou mais",
         "value": "60",
         "points": 0,
@@ -854,7 +852,7 @@
    ]
   },
   {
-   "id": "Fy42Dq",
+   "id": "ZMc4DU",
    "title": "10 Captura",
    "header": {
     "logo": true,
@@ -863,8 +861,8 @@
    },
    "blocks": [
     {
-     "id": "8aS0Ck",
-     "name": "text_8aS0Ck",
+     "id": "kMOZvZ",
+     "name": "text_kMOZvZ",
      "type": "text",
      "props": {
       "text": "Sua trilha recomendada está pronta ✨",
@@ -881,8 +879,8 @@
      }
     },
     {
-     "id": "JWbr99",
-     "name": "text_JWbr99",
+     "id": "UT57Wi",
+     "name": "text_UT57Wi",
      "type": "text",
      "props": {
       "text": "Preencha para liberar a trilha que a Letícia indica para o seu momento.",
@@ -899,7 +897,7 @@
      }
     },
     {
-     "id": "IcPB6X",
+     "id": "3JEM1d",
      "name": "nome",
      "type": "field",
      "props": {
@@ -918,7 +916,7 @@
      }
     },
     {
-     "id": "C2eqRA",
+     "id": "gRNVV8",
      "name": "email",
      "type": "email",
      "props": {
@@ -936,7 +934,7 @@
      }
     },
     {
-     "id": "qSglx3",
+     "id": "zu9n8h",
      "name": "telefone",
      "type": "phone",
      "props": {
@@ -955,14 +953,14 @@
      }
     },
     {
-     "id": "Feit2x",
-     "name": "button_Feit2x",
+     "id": "6axyzx",
+     "name": "button_6axyzx",
      "type": "button",
      "props": {
       "text": "VER MINHA TRILHA",
       "nav": {
        "kind": "step",
-       "stepId": "EuomMp"
+       "stepId": "mWpkRd"
       },
       "size": "lg"
      },
@@ -976,8 +974,8 @@
      }
     },
     {
-     "id": "3FQi0F",
-     "name": "text_3FQi0F",
+     "id": "djfynq",
+     "name": "text_djfynq",
      "type": "text",
      "props": {
       "text": "🔒 Seus dados estão seguros e não serão compartilhados.",
@@ -996,7 +994,7 @@
    ]
   },
   {
-   "id": "EuomMp",
+   "id": "mWpkRd",
    "title": "11 Analisando",
    "header": {
     "logo": true,
@@ -1005,8 +1003,8 @@
    },
    "blocks": [
     {
-     "id": "UOvpVr",
-     "name": "loading_UOvpVr",
+     "id": "TJIqna",
+     "name": "loading_TJIqna",
      "type": "loading",
      "props": {
       "title": "Montando a sua trilha...",
@@ -1018,7 +1016,7 @@
       "redirect": true,
       "nav": {
        "kind": "step",
-       "stepId": "KMF30Q"
+       "stepId": "xqptl2"
       },
       "layout": "bar"
      },
@@ -1032,8 +1030,8 @@
      }
     },
     {
-     "id": "zVg03i",
-     "name": "checklist_zVg03i",
+     "id": "gyJuC7",
+     "name": "checklist_gyJuC7",
      "type": "checklist",
      "props": {
       "items": "Lendo suas respostas\nCruzando com o que a Letícia mostrou nos vídeos\nSeparando os cursos para o seu momento",
@@ -1052,7 +1050,7 @@
    ]
   },
   {
-   "id": "KMF30Q",
+   "id": "xqptl2",
    "title": "12 Resultado e oferta",
    "header": {
     "logo": true,
@@ -1061,8 +1059,8 @@
    },
    "blocks": [
     {
-     "id": "rsq8md",
-     "name": "html_rsq8md",
+     "id": "udltkp",
+     "name": "html_udltkp",
      "type": "html",
      "props": {
       "code": "<script>(function(){try{var k='send_RxuX5n5';if(sessionStorage.getItem(k))return;var tel=`{{telefone}}`.replace(/\\D/g,'');if(tel&&tel.indexOf('55')!==0)tel='55'+tel;var d=new FormData();d.append('first_name',`{{nome}}`);d.append('email',`{{email}}`);if(tel)d.append('phone','+'+tel);d.append('b_RxuX5n5','');var qs=location.search?'&'+location.search.slice(1):'';fetch('https://handler.send.hotmart.com/subscription/RxuX5n5?hotfeature=53'+qs,{method:'POST',mode:'no-cors',body:d});sessionStorage.setItem(k,'1');}catch(e){}})();</script>"
@@ -1077,8 +1075,8 @@
      }
     },
     {
-     "id": "Uyd76v",
-     "name": "text_Uyd76v",
+     "id": "26Hu4A",
+     "name": "text_26Hu4A",
      "type": "text",
      "props": {
       "text": "{{nome}}, o seu caminho começa pela",
@@ -1095,8 +1093,8 @@
      }
     },
     {
-     "id": "Zh2sY7",
-     "name": "text_Zh2sY7",
+     "id": "wqm8OA",
+     "name": "text_wqm8OA",
      "type": "text",
      "props": {
       "text": "CULTURA E REPERTÓRIO",
@@ -1113,8 +1111,8 @@
      }
     },
     {
-     "id": "OS2JPM",
-     "name": "text_OS2JPM",
+     "id": "pYE04U",
+     "name": "text_pYE04U",
      "type": "text",
      "props": {
       "text": "Você tem muito a dizer, mas quando a conversa vai para livros, arte ou história, prefere ficar quieta. Não é falta de inteligência. É falta de repertório, e repertório se constrói.",
@@ -1131,8 +1129,8 @@
      }
     },
     {
-     "id": "6TnDPJ",
-     "name": "text_6TnDPJ",
+     "id": "CBwYwg",
+     "name": "text_CBwYwg",
      "type": "text",
      "props": {
       "text": "**Sua trilha recomendada:**",
@@ -1149,8 +1147,8 @@
      }
     },
     {
-     "id": "1NnwG5",
-     "name": "checklist_1NnwG5",
+     "id": "HzlDsl",
+     "name": "checklist_HzlDsl",
      "type": "checklist",
      "props": {
       "items": "📖 Desvendando a Literatura: de Homero a Clarice, 21 aulas\n🖼️ Museu da Dama: entender obras e artistas\n🏛️ Descobrindo a História: os contextos que explicam o mundo",
@@ -1167,8 +1165,8 @@
      }
     },
     {
-     "id": "K3CFvs",
-     "name": "text_K3CFvs",
+     "id": "2V89OK",
+     "name": "text_2V89OK",
      "type": "text",
      "props": {
       "text": "Em poucas semanas, você entra numa conversa sobre um clássico, uma exposição ou um fato histórico sabendo o que acrescentar.",
@@ -1185,8 +1183,8 @@
      }
     },
     {
-     "id": "RkjLJl",
-     "name": "text_RkjLJl",
+     "id": "MdP5cB",
+     "name": "text_MdP5cB",
      "type": "text",
      "props": {
       "text": "E isso é só o começo. Na **Escola para Damas** você tem mais de 10 cursos e mais de 200 aulas sobre cultura, comunicação, feminilidade, inteligência emocional e elegância.",
@@ -1203,8 +1201,8 @@
      }
     },
     {
-     "id": "kRIO0e",
-     "name": "text_kRIO0e",
+     "id": "Vq9ZPd",
+     "name": "text_Vq9ZPd",
      "type": "text",
      "props": {
       "text": "Antes de ver o valor, assista a este recado da Letícia:",
@@ -1221,8 +1219,8 @@
      }
     },
     {
-     "id": "AAeZDe",
-     "name": "html_AAeZDe",
+     "id": "Kh7r3L",
+     "name": "html_Kh7r3L",
      "type": "html",
      "props": {
       "code": "<video src=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/OFERTA.mp4\" poster=\"https://heaqjhyxeskscfqvqaev.supabase.co/storage/v1/object/public/midia-funis/quiz-vsl/OFERTA_poster.jpg\" controls playsinline preload=\"metadata\" style=\"width:100%;aspect-ratio:1080/1680;border-radius:14px;background:#000;display:block\"></video>"
@@ -1237,8 +1235,8 @@
      }
     },
     {
-     "id": "7wfdbU",
-     "name": "alert_7wfdbU",
+     "id": "bt6Rxq",
+     "name": "alert_bt6Rxq",
      "type": "alert",
      "props": {
       "text": "Você disse que tem pouco tempo: as aulas foram pensadas para **cerca de 15 minutos** e muitas podem ser **ouvidas como podcast**.",
@@ -1253,10 +1251,10 @@
      "display": {
       "groups": [
        {
-        "id": "Bs3Rc",
+        "id": "bh6CR",
         "rules": [
          {
-          "id": "4JM6L",
+          "id": "rCgSk",
           "left": "@tempo",
           "op": "eq",
           "right": "pouco"
@@ -1267,8 +1265,8 @@
      }
     },
     {
-     "id": "vJhSq4",
-     "name": "price_vJhSq4",
+     "id": "UJvxfs",
+     "name": "price_UJvxfs",
      "type": "price",
      "props": {
       "badge": "10% DE DESCONTO NESTA PÁGINA",
@@ -1294,8 +1292,8 @@
      }
     },
     {
-     "id": "y8Wc19",
-     "name": "alert_y8Wc19",
+     "id": "nytR7X",
+     "name": "alert_nytR7X",
      "type": "alert",
      "props": {
       "text": "**Garantia de 7 dias:** entre, conheça as aulas e, se não for para você, peça o reembolso dentro do prazo.",
@@ -1312,8 +1310,8 @@
      }
     },
     {
-     "id": "h3sC5M",
-     "name": "faq_h3sC5M",
+     "id": "KfRvZY",
+     "name": "faq_KfRvZY",
      "type": "faq",
      "props": {
       "items": [
@@ -1345,8 +1343,8 @@
      }
     },
     {
-     "id": "8O9Cr3",
-     "name": "button_8O9Cr3",
+     "id": "qe66HC",
+     "name": "button_qe66HC",
      "type": "button",
      "props": {
       "text": "GARANTIR MEUS 10% DE DESCONTO",
