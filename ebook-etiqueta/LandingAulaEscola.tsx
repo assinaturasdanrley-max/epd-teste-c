@@ -10,6 +10,7 @@ import "@/styles/landing-ebook.css";
 
 import leticiaSorriso from "@/assets/ebook/leticia-sorriso.webp";
 import leticiaXicara from "@/assets/ebook/leticia-xicara.webp";
+import brasao from "@/assets/b2/logo-escola.webp";
 
 declare global {
   interface Window {
@@ -102,7 +103,10 @@ const LandingAulaEscola = () => {
   return (
     <div className="lpeb">
       <section className="ae-hero">
-        <div className="eb-wrap eb-brand">ESCOLA PARA DAMAS</div>
+        <div className="eb-wrap eb-brand ae-brand">
+          <img src={brasao} alt="" width={42} height={42} />
+          <span>ESCOLA PARA DAMAS</span>
+        </div>
         <div className="eb-wrap ae-grid">
           <div className="ae-copy">
             <span className="eb-eye">Aula gratuita · Letícia Fagundes</span>
@@ -191,7 +195,10 @@ const LandingAulaEscola = () => {
         </div>
       </section>
 
-      <footer className="eb-foot">Escola para Damas · Letícia Fagundes</footer>
+      <footer className="eb-foot ae-foot">
+        <img src={brasao} alt="" width={30} height={30} />
+        <span>Escola para Damas · Letícia Fagundes</span>
+      </footer>
     </div>
   );
 };

@@ -209,6 +209,10 @@
 
 /* captura da aula gratuita (ae-*) */
 .ae-hero{padding:48px 0 90px;background:radial-gradient(ellipse 70% 60% at 85% 35%,rgba(122,22,34,.6),transparent 70%),var(--deep)}
+.ae-brand{display:flex;align-items:center;gap:14px}
+.ae-brand img{width:42px;height:42px}
+.ae-foot{display:flex;align-items:center;justify-content:center;gap:12px;padding-bottom:30px}
+.ae-foot img{width:30px;height:30px;opacity:.85}
 .ae-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
 .ae-copy h1{font-size:clamp(2.2rem,4.8vw,3.7rem);margin-bottom:24px}
 .ae-photo{display:flex;align-items:center;gap:16px;margin-top:6px}
