@@ -1,6 +1,6 @@
 /**
  * Escola para Damas, upsell depois da compra do e-book Etiqueta Essencial.
- * Oferta: Plano Anual da Escola (12x R$ 39,90). Compra com um clique pelo Funil de Vendas da Hotmart
+ * Oferta: Plano Anual da Escola por R$ 297 (cupom LEITORA297, oferta z2g8klxb). Compra com um clique pelo Funil de Vendas da Hotmart
  * (widget hotmart-sales-funnel). Estilo: src/styles/landing-ebook.css (escopo .lpeb).
  */
 import { useEffect, useState } from "react";
@@ -25,7 +25,7 @@ declare global {
 }
 
 const FUNNEL_SCRIPT = "https://checkout.hotmart.com/lib/hotmart-checkout-elements.js";
-const FALLBACK_URL = "https://pay.hotmart.com/X100700705N?off=vzeeyxtv&checkoutMode=10&src=upsell-ebook-etiqueta";
+const FALLBACK_URL = "https://pay.hotmart.com/X100700705N?off=z2g8klxb&checkoutMode=10&src=upsell-ebook-etiqueta";
 const FONTS_URL =
   "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=DM+Sans:opsz,wght@9..40,300..700&display=swap";
 
@@ -54,10 +54,9 @@ const OfferBox = ({ id }: { id?: string }) => (
   <div className="up-box">
     <div className="up-was">De R$ {brl(TOTAL)} em cursos avulsos</div>
     <div className="up-price">
-      <small>12x de</small>
-      <strong>R$ 39,90</strong>
+      <strong>R$ 297</strong>
     </div>
-    <div className="up-cash">ou R$ 478,80 à vista · Plano Anual</div>
+    <div className="up-cash">à vista ou em até 12x no cartão · Plano Anual</div>
     {id && <div id={id} className="up-widget" />}
   </div>
 );

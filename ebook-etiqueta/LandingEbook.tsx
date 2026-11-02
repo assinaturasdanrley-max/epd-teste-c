@@ -27,7 +27,7 @@ declare global {
 /* ------------------------------------------------------------------ */
 const SEND_FORM_ID = "EBOOK_FORM_ID";
 const SEND_ACTION = `https://handler.send.hotmart.com/subscription/${SEND_FORM_ID}?hotfeature=53`;
-const CHECKOUT_URL = "EBOOK_CHECKOUT_URL";
+const CHECKOUT_URL = "https://pay.hotmart.com/F108294712I?off=vbvn4obh&checkoutMode=10";
 const PRICE = "19,90";
 const FONTS_URL =
   "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=DM+Sans:opsz,wght@9..40,300..700&display=swap";
@@ -139,7 +139,7 @@ const LeadModal = ({ open, onClose }: { open: boolean; onClose: () => void }) =>
     fd.append(`b_${SEND_FORM_ID}`, "");
     const params = new URLSearchParams(window.location.search).toString();
     try {
-      await Promise.race([
+      if (!SEND_FORM_ID.startsWith("EBOOK_")) await Promise.race([
         fetch(SEND_ACTION + (params ? "&" + params : ""), { method: "POST", mode: "no-cors", body: fd }),
         new Promise((r) => setTimeout(r, 2500)),
       ]);
