@@ -3,7 +3,7 @@
  * Oferta: Plano Anual da Escola por R$ 297 (cupom LEITORA297, oferta z2g8klxb). Compra com um clique pelo Funil de Vendas da Hotmart
  * (widget hotmart-sales-funnel). Estilo: src/styles/landing-ebook.css (escopo .lpeb).
  */
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "@/styles/landing-ebook.css";
 
 import cLiteratura from "@/assets/b2/capa-literatura.webp";
@@ -18,15 +18,24 @@ import cAnfitria from "@/assets/b2/capa-anfitria.webp";
 import cRotina from "@/assets/b2/capa-rotina.webp";
 import leticiaSorriso from "@/assets/ebook/leticia-sorriso.webp";
 
+type VimeoPlayer = {
+  setMuted: (m: boolean) => Promise<unknown>;
+  setVolume: (v: number) => Promise<unknown>;
+  setCurrentTime: (t: number) => Promise<unknown>;
+  play: () => Promise<unknown>;
+};
+
 declare global {
   interface Window {
+    Vimeo?: { Player: new (el: HTMLIFrameElement) => VimeoPlayer };
     checkoutElements?: { init: (k: string) => { mount: (sel: string) => void } };
   }
 }
 
 const FUNNEL_SCRIPT = "https://checkout.hotmart.com/lib/hotmart-checkout-elements.js";
 const VIMEO_SRC =
-  "https://player.vimeo.com/video/1242573698?h=2434617828&badge=0&autopause=0&title=0&byline=0&portrait=0&dnt=1";
+  "https://player.vimeo.com/video/1242573698?h=2434617828&badge=0&autopause=0&title=0&byline=0&portrait=0&dnt=1&autoplay=1&muted=1&playsinline=1";
+const VIMEO_API = "https://player.vimeo.com/api/player.js";
 const FALLBACK_URL = "https://pay.hotmart.com/X100700705N?off=z2g8klxb&checkoutMode=10&src=upsell-ebook-etiqueta";
 const FONTS_URL =
   "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=DM+Sans:opsz,wght@9..40,300..700&display=swap";
@@ -62,6 +71,63 @@ const OfferBox = ({ id }: { id?: string }) => (
     {id && <div id={id} className="up-widget" />}
   </div>
 );
+
+// vídeo começa sozinho e sem som (regra dos navegadores); o aviso por cima liga o som e recomeça do início
+const UpsellVideo = () => {
+  const ref = useRef<HTMLIFrameElement>(null);
+  const player = useRef<VimeoPlayer | null>(null);
+  const [muted, setMuted] = useState(true);
+
+  useEffect(() => {
+    const init = () => {
+      if (ref.current && window.Vimeo) player.current = new window.Vimeo.Player(ref.current);
+    };
+    if (window.Vimeo) {
+      init();
+    } else {
+      const s = document.createElement("script");
+      s.src = VIMEO_API;
+      s.async = true;
+      s.onload = init;
+      document.body.appendChild(s);
+    }
+  }, []);
+
+  const unmute = () => {
+    const p = player.current;
+    setMuted(false);
+    if (!p) return;
+    p.setCurrentTime(0)
+      .then(() => p.setMuted(false))
+      .then(() => p.setVolume(1))
+      .then(() => p.play())
+      .catch(() => undefined);
+  };
+
+  return (
+    <div className="up-video">
+      <iframe
+        ref={ref}
+        src={VIMEO_SRC}
+        title="Um convite especial da Letícia"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        allowFullScreen
+      />
+      {muted && (
+        <button type="button" className="up-unmute" onClick={unmute}>
+          <span className="up-unmute-ic" aria-hidden="true">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M11 5L6 9H3v6h3l5 4z" />
+              <path d="M16 9l5 6M21 9l-5 6" />
+            </svg>
+          </span>
+          <b>Seu vídeo já começou</b>
+          <span>Clique aqui para ouvir</span>
+        </button>
+      )}
+    </div>
+  );
+};
 
 const LandingEbookUpsell = () => {
   const [widgetOk, setWidgetOk] = useState(true);
@@ -116,14 +182,7 @@ const LandingEbookUpsell = () => {
           <p className="eb-lead up-lead">
             Só para quem acabou de comprar o e-book: entre na Escola para Damas e tenha acesso a todos os cursos da Letícia Fagundes por um ano, incluindo o <b>Guia da Anfitriã Perfeita</b>, que continua exatamente de onde o e-book parou.
           </p>
-          <div className="up-video">
-            <iframe
-              src={VIMEO_SRC}
-              title="Um convite especial da Letícia"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-              allowFullScreen
-            />
-          </div>
+          <UpsellVideo />
           <OfferBox id="hotmart-sales-funnel" />
           {!widgetOk && (
             <a className="eb-btn wide up-fallback" href={FALLBACK_URL}>
