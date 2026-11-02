@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import LandingEbookUpsell from "@/pages/LandingEbookUpsell";
 
-const TITLE = "Uma oferta para você | Escola para Damas";
+const TITLE = "Um convite para você | Escola para Damas";
 const DESCRIPTION = "Oferta especial da Escola para Damas para quem comprou o e-book.";
 const URL = "https://exclusivo.escolaparadamas.com.br/ebook-oferta-especial";
 

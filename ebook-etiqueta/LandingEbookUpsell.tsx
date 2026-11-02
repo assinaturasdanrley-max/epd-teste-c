@@ -133,7 +133,7 @@ const LandingEbookUpsell = () => {
   const [widgetOk, setWidgetOk] = useState(true);
 
   useEffect(() => {
-    document.title = "Uma oferta para você | Escola para Damas";
+    document.title = "Um convite para você | Escola para Damas";
     if (!document.querySelector(`link[href="${FONTS_URL}"]`)) {
       const l = document.createElement("link");
       l.rel = "stylesheet";
