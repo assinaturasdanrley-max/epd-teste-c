@@ -169,12 +169,11 @@ const LandingEbookUpsell = () => {
     <div className="lpeb">
       <div className="up-top">
         <span className="up-ok"><Check /> Pedido recebido</span>
-        <span>Seu e-book chega no seu e-mail em instantes</span>
+        <span>Seu e-book está sendo preparado</span>
       </div>
 
       <section className="eb-hero up-hero" id="up-oferta">
         <div className="eb-wrap eb-center">
-          <span className="eb-eye">Seu e-book está sendo preparado</span>
           <p className="up-note">Enquanto isso, assista ao vídeo abaixo. <b>Esta condição é única nessa página.</b></p>
           <h1>
             Você começou pela etiqueta. <em>Que tal levar a Escola inteira?</em>

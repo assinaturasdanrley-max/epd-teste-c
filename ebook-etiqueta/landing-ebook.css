@@ -159,10 +159,10 @@
 /* ---------- upsell ---------- */
 .up-top{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;padding:14px 20px;background:#0f3d24;color:#d9f2e2;font-size:.9rem;text-align:center}
 .up-ok{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:#fff}
-.up-hero{padding:64px 0 80px}
+.up-hero{padding:40px 0 80px}
 .up-hero h1{font-size:clamp(2.1rem,4.6vw,3.5rem);max-width:860px;margin:0 auto 22px}
 .lpeb .up-lead{margin:0 auto 34px;max-width:680px;text-align:center}
-.lpeb .up-note{margin:-4px auto 26px;max-width:620px;text-align:center;color:#e9dccb;font-size:1.02rem;line-height:1.5}
+.lpeb .up-note{margin:0 auto 22px;max-width:620px;text-align:center;color:#e9dccb;font-size:1.02rem;line-height:1.5}
 .lpeb .up-note b{color:var(--gold);font-weight:600}
 .up-video{position:relative;max-width:860px;margin:0 auto 38px;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#140a0c;border:1px solid rgba(217,189,120,.35);box-shadow:0 24px 60px rgba(0,0,0,.45)}
 .up-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
