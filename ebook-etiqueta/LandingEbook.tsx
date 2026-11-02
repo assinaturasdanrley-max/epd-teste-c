@@ -25,7 +25,7 @@ declare global {
 /* ------------------------------------------------------------------ */
 /* Configuração                                                        */
 /* ------------------------------------------------------------------ */
-const SEND_FORM_ID = "EBOOK_FORM_ID";
+const SEND_FORM_ID = "bMulzEl";
 const SEND_ACTION = `https://handler.send.hotmart.com/subscription/${SEND_FORM_ID}?hotfeature=53`;
 const CHECKOUT_URL = "https://pay.hotmart.com/F108294712I?off=vbvn4obh&checkoutMode=10";
 const PRICE = "19,90";
