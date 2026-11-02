@@ -9,6 +9,7 @@ import type { FormEvent } from "react";
 import "@/styles/landing-ebook.css";
 
 import leticiaSorriso from "@/assets/ebook/leticia-sorriso.webp";
+import leticiaXicara from "@/assets/ebook/leticia-xicara.webp";
 
 declare global {
   interface Window {
@@ -28,6 +29,7 @@ const TEMAS = [
   ["Cultura", "Por que repertório muda a forma como você é vista, num jantar ou numa entrevista."],
   ["À mesa", "Guardanapo, talheres e taças: os detalhes que entregam se você sabe ou não se portar."],
   ["Firmeza", "Como transformar a raiva em força serena e ser respeitada sem levantar a voz."],
+  ["Feminilidade", "Por que ser feminina não é ser frágil, e o que isso muda no seu relacionamento e na sua casa."],
 ];
 
 const LandingAulaEscola = () => {
@@ -111,7 +113,9 @@ const LandingAulaEscola = () => {
               Uma aula de cerca de 40 minutos sobre o que ninguém ensinou às mulheres: <b>presença, conversa, cultura e elegância</b> para ser respeitada e admirada em qualquer ambiente.
             </p>
             <div className="ae-photo">
-              <img src={leticiaSorriso} alt="Letícia Fagundes" fetchPriority="high" />
+              <span className="ae-av">
+                <img src={leticiaSorriso} alt="Letícia Fagundes" fetchPriority="high" />
+              </span>
               <div>
                 <b>Letícia Fagundes</b>
                 <span>Fundadora da Escola para Damas</span>
@@ -153,6 +157,33 @@ const LandingAulaEscola = () => {
             ))}
           </div>
           <div className="eb-center">
+            <a href="#inscricao" className="eb-btn">
+              Quero assistir à aula
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="eb-sec eb-split">
+        <div className="eb-wrap eb-split-g">
+          <div className="eb-photo">
+            <img src={leticiaXicara} alt="Letícia Fagundes" loading="lazy" />
+          </div>
+          <div>
+            <span className="eb-eye">Quem dá a aula</span>
+            <h2>
+              Letícia <em>Fagundes</em>
+            </h2>
+            <p>
+              Psicanalista, terapeuta e mentora de mulheres. Há anos estuda feminilidade, cultura, comunicação, elegância, comportamento e inteligência emocional, temas que se encontraram na criação da Escola para Damas.
+            </p>
+            <p>
+              Ela percebeu que muitas mulheres inteligentes e competentes, com a vida já construída, sentiam que podiam se desenvolver mais, mas encontravam esse conhecimento espalhado por todo lado. Criou a Escola para reunir essa formação em um só lugar.
+            </p>
+            <div className="eb-quote">
+              "Ser uma dama tem muito mais relação com aquilo que uma mulher cultiva do que com uma imagem perfeita."
+              <span>Letícia Fagundes</span>
+            </div>
             <a href="#inscricao" className="eb-btn">
               Quero assistir à aula
             </a>
