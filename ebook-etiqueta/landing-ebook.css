@@ -88,6 +88,10 @@
 .eb-price{margin-bottom:22px}
 .eb-price small{display:block;color:#bfa58a;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase}
 .eb-price strong{font-family:"Playfair Display",serif;font-size:3.6rem;font-weight:600;color:#fff3e2;line-height:1.1}
+.eb-from{display:block;color:#d8c6b2;font-size:1.05rem;margin-top:6px}
+.eb-from s{color:#bfa58a}
+.eb-now{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.eb-off{font-style:normal;font-family:"DM Sans",sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.06em;color:var(--wine);background:linear-gradient(135deg,#ecd59d,var(--gold2));padding:6px 12px;border-radius:999px}
 .eb-guar{margin-top:18px;font-size:.9rem;color:#bfa58a}
 .eb-guar b{color:#e8d9c5}
 

@@ -29,6 +29,8 @@ const SEND_FORM_ID = "bMulzEl";
 const SEND_ACTION = `https://handler.send.hotmart.com/subscription/${SEND_FORM_ID}?hotfeature=53`;
 const CHECKOUT_URL = "https://pay.hotmart.com/F108294712I?off=vbvn4obh&checkoutMode=10";
 const PRICE = "19,90";
+const OLD_PRICE = "49,90";
+const OFF = "60% OFF";
 const FONTS_URL =
   "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=DM+Sans:opsz,wght@9..40,300..700&display=swap";
 
@@ -185,7 +187,7 @@ const LeadModal = ({ open, onClose }: { open: boolean; onClose: () => void }) =>
           {field("email", "E-mail", { type: "email", placeholder: "seuemail@exemplo.com", autoComplete: "email", inputMode: "email" })}
           {field("phone", "WhatsApp", { type: "tel", placeholder: "(41) 99999-9999", autoComplete: "tel", inputMode: "tel" })}
           <button type="submit" className="eb-btn wide" disabled={sending}>
-            <span>{sending ? "Abrindo o pagamento" : `Ir para o pagamento · R$ ${PRICE}`}</span>
+            <span>{sending ? "Abrindo o pagamento" : "Finalizar e adquirir meu e-book"}</span>
             <Arrow />
           </button>
           <small>Pagamento seguro pela Hotmart · 7 dias de garantia</small>
@@ -412,7 +414,13 @@ const LandingEbook = () => {
               </ul>
               <div className="eb-price">
                 <small>Pagamento único</small>
-                <strong>R$ {PRICE}</strong>
+                <span className="eb-from">
+                  de <s>R$ {OLD_PRICE}</s> por apenas
+                </span>
+                <span className="eb-now">
+                  <strong>R$ {PRICE}</strong>
+                  <em className="eb-off">{OFF}</em>
+                </span>
               </div>
               <button type="button" className="eb-btn wide" onClick={openForm}>
                 <span>Quero meu e-book agora</span>
